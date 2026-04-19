@@ -8,4 +8,7 @@ storage/framework/sessions/*
 storage/framework/testing/*
 storage/framework/views/*
 .env
-.env.*
+.env.local
+.env.production
+.env.development
+.env.testing
