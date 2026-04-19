@@ -1,5 +1,16 @@
-FROM composer:2.8 AS vendor
+FROM php:8.3-cli AS vendor
+
 WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    unzip \
+    libzip-dev \
+    libicu-dev \
+    && docker-php-ext-install zip intl \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY --from=composer:2.8 /usr/bin/composer /usr/bin/composer
 COPY composer.json composer.lock ./
 RUN composer install \
     --no-dev \
@@ -31,8 +42,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxml2-dev \
     sqlite3 \
     libsqlite3-dev \
+    libicu-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql pdo_sqlite zip gd mbstring bcmath \
+    && docker-php-ext-install pdo_mysql pdo_sqlite zip gd mbstring bcmath intl \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
