@@ -12,7 +12,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
 </head>
-<body>
+<body class="{{ request()->routeIs('home') ? 'is-home' : '' }}">
 <div class="page-shell">
     <header class="site-header">
         <div class="container topbar">
