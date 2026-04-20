@@ -16,13 +16,23 @@
 <div class="page-shell">
     <header class="site-header">
         <div class="container topbar">
-            <a href="{{ route('home') }}" class="logo">{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</a>
-            <nav>
-                <a href="{{ route('products.index') }}">محصولات</a>
-                <a href="{{ route('blog.index') }}">وبلاگ</a>
-                <a href="{{ route('contact') }}">پشتیبانی</a>
+            <a href="{{ route('home') }}" class="brand">
+                <strong>{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</strong>
+                <span>{{ $siteSetting->site_tagline ?? 'فروش اکانت‌های دیجیتال مطمئن' }}</span>
+            </a>
+
+            <nav class="main-nav" aria-label="منوی اصلی">
+                <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">خانه</a>
+                <a href="{{ route('products.index') }}" class="{{ request()->routeIs('products.*') ? 'active' : '' }}">محصولات</a>
+                <a href="{{ route('blog.index') }}" class="{{ request()->routeIs('blog.*') ? 'active' : '' }}">وبلاگ</a>
+                <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">پشتیبانی</a>
+                <a href="{{ route('cart.index') }}" class="{{ request()->routeIs('cart.*') ? 'active' : '' }}">سبد خرید</a>
             </nav>
-            <a class="btn btn-outline" href="/admin">پنل مدیریت</a>
+
+            <div class="header-actions">
+                <a class="btn btn-outline btn-sm" href="{{ route('page.policy', ['page' => 'refund-policy']) }}">سیاست بازگشت</a>
+                <a class="btn btn-sm" href="/admin">پنل مدیریت</a>
+            </div>
         </div>
     </header>
 
@@ -35,17 +45,26 @@
                 <p>{{ $siteSetting->homepage_intro ?? 'ارائه اشتراک‌های دیجیتال با پشتیبانی واقعی، قیمت‌گذاری شفاف و تحویل سریع.' }}</p>
             </div>
             <div>
-                <h4 class="footer-title">دسترسی سریع</h4>
+                <h4 class="footer-title">لینک‌های اصلی</h4>
                 <div class="footer-links">
                     <a href="{{ route('home') }}">صفحه اصلی</a>
-                    <a href="{{ route('products.index') }}">محصولات</a>
-                    <a href="{{ route('blog.index') }}">وبلاگ</a>
-                    <a href="{{ route('contact') }}">پشتیبانی</a>
+                    <a href="{{ route('products.index') }}">همه محصولات</a>
+                    <a href="{{ route('blog.index') }}">مقالات آموزشی</a>
+                    <a href="{{ route('contact') }}">تماس و پشتیبانی</a>
                 </div>
             </div>
             <div>
-                <h4 class="footer-title">اعتماد شما</h4>
-                <p>سفارش امن، تحویل سریع، پشتیبانی پاسخ‌گو و بروزرسانی مداوم خدمات.</p>
+                <h4 class="footer-title">اعتماد و قوانین</h4>
+                <div class="footer-links">
+                    <a href="{{ route('page.policy', ['page' => 'refund-policy']) }}">بازگشت وجه</a>
+                    <a href="{{ route('page.policy', ['page' => 'terms']) }}">قوانین خدمات</a>
+                    <a href="{{ route('page.policy', ['page' => 'privacy']) }}">حریم خصوصی</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">خدمات سریع</h4>
+                <p>پرداخت امن، فعال‌سازی سریع، تحویل اکانت و پشتیبانی مرحله‌به‌مرحله.</p>
+                <a class="btn btn-sm btn-outline" href="{{ route('contact') }}">درخواست مشاوره</a>
             </div>
         </div>
         <div class="container footer-note">{{ $siteSetting->footer_text ?? 'تمامی حقوق محفوظ است.' }}</div>
