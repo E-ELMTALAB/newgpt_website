@@ -22,6 +22,14 @@ fi
 
 cd /var/www/html
 
+if grep -q '^APP_ENV=local' .env; then
+  sed -i 's|^APP_ENV=local|APP_ENV=production|' .env
+fi
+
+if grep -q '^APP_DEBUG=true' .env; then
+  sed -i 's|^APP_DEBUG=true|APP_DEBUG=false|' .env
+fi
+
 if [ -n "${RENDER_EXTERNAL_URL:-}" ]; then
   if grep -q '^APP_URL=' .env; then
     sed -i "s|^APP_URL=.*|APP_URL=${RENDER_EXTERNAL_URL}|" .env
