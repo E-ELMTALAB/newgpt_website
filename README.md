@@ -70,4 +70,5 @@ docker run --rm -p 8080:80 newgpt_website
 ### Render notes
 - Render will detect the `Dockerfile` at repo root and build it.
 - Set your database env vars in Render dashboard (`DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`).
+- For SQLite deployments, prefer non-database runtime stores to avoid write errors on immutable DB files: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`.
 - Container starts Apache and serves Laravel from `/public`.
