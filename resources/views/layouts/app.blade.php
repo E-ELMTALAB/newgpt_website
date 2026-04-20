@@ -13,16 +13,43 @@
     @endif
 </head>
 <body>
-<header class="container topbar">
-    <a href="{{ route('home') }}" class="logo">{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</a>
-    <nav>
-        <a href="{{ route('products.index') }}">محصولات</a>
-        <a href="{{ route('blog.index') }}">وبلاگ</a>
-        <a href="{{ route('contact') }}">پشتیبانی</a>
-    </nav>
-    <a class="btn" href="/admin">پنل مدیریت</a>
-</header>
-<main class="container">@yield('content')</main>
-<footer class="container footer">{{ $siteSetting->footer_text ?? 'تمامی حقوق محفوظ است.' }}</footer>
+<div class="page-shell">
+    <header class="site-header">
+        <div class="container topbar">
+            <a href="{{ route('home') }}" class="logo">{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</a>
+            <nav>
+                <a href="{{ route('products.index') }}">محصولات</a>
+                <a href="{{ route('blog.index') }}">وبلاگ</a>
+                <a href="{{ route('contact') }}">پشتیبانی</a>
+            </nav>
+            <a class="btn btn-outline" href="/admin">پنل مدیریت</a>
+        </div>
+    </header>
+
+    <main class="container page-main">@yield('content')</main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-title">{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</h3>
+                <p>{{ $siteSetting->homepage_intro ?? 'ارائه اشتراک‌های دیجیتال با پشتیبانی واقعی، قیمت‌گذاری شفاف و تحویل سریع.' }}</p>
+            </div>
+            <div>
+                <h4 class="footer-title">دسترسی سریع</h4>
+                <div class="footer-links">
+                    <a href="{{ route('home') }}">صفحه اصلی</a>
+                    <a href="{{ route('products.index') }}">محصولات</a>
+                    <a href="{{ route('blog.index') }}">وبلاگ</a>
+                    <a href="{{ route('contact') }}">پشتیبانی</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">اعتماد شما</h4>
+                <p>سفارش امن، تحویل سریع، پشتیبانی پاسخ‌گو و بروزرسانی مداوم خدمات.</p>
+            </div>
+        </div>
+        <div class="container footer-note">{{ $siteSetting->footer_text ?? 'تمامی حقوق محفوظ است.' }}</div>
+    </footer>
+</div>
 </body>
 </html>
