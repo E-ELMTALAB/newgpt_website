@@ -30,6 +30,14 @@ if [ -n "${RENDER_EXTERNAL_URL:-}" ]; then
   fi
 fi
 
+if grep -q '^APP_URL=http://' .env; then
+  sed -i 's|^APP_URL=http://|APP_URL=https://|' .env
+fi
+
+if grep -q '^ASSET_URL=http://' .env; then
+  sed -i 's|^ASSET_URL=http://|ASSET_URL=https://|' .env
+fi
+
 if ! grep -q '^APP_KEY=base64:' .env; then
   php artisan key:generate --force
 fi

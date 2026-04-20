@@ -17,6 +17,16 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if ($this->app->environment('production')) {
+            $appUrl = (string) config('app.url', '');
+            if (str_starts_with($appUrl, 'http://')) {
+                URL::forceRootUrl(preg_replace('/^http:\/\//', 'https://', $appUrl) ?? $appUrl);
+            }
+
+            $assetUrl = config('app.asset_url');
+            if (is_string($assetUrl) && str_starts_with($assetUrl, 'http://')) {
+                config(['app.asset_url' => preg_replace('/^http:\/\//', 'https://', $assetUrl)]);
+            }
+
             URL::forceScheme('https');
         }
 
