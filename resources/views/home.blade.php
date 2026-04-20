@@ -1,59 +1,117 @@
 @extends('layouts.app')
 @section('content')
-<section class="hero">
-    <div class="hero-content">
-        <span class="badge">فروشگاه تخصصی اشتراک دیجیتال</span>
-        <h1>خرید مطمئن اکانت‌های دیجیتال و اشتراک هوش مصنوعی</h1>
-        <p>{{ $siteSetting->homepage_intro ?? 'تحویل سریع، پشتیبانی واقعی و قیمت‌گذاری شفاف برای کسب‌وکارها و کاربران حرفه‌ای.' }}</p>
+<section class="home-hero glass">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="home-hero-content">
+        <span class="kicker">پلتفرم پیشرو در اشتراک‌های دیجیتال</span>
+        <h1>خرید اکانت ChatGPT و ابزارهای AI با تحویل آنی</h1>
+        <p>اکانت‌های قانونی، پشتیبانی واقعی و فعال‌سازی سریع برای تجربه‌ای بدون دغدغه در خرید سرویس‌های دیجیتال.</p>
+
+        <div class="home-hero-trust">
+            <article>
+                <span>⟳</span>
+                <strong>تضمین تعویض</strong>
+            </article>
+            <article>
+                <span>🛡</span>
+                <strong>اکانت‌های اصل</strong>
+            </article>
+            <article>
+                <span>⏰</span>
+                <strong>پشتیبانی ۲۴/۷</strong>
+            </article>
+        </div>
+
         <div class="hero-actions">
             <a class="btn" href="{{ route('products.index') }}">مشاهده محصولات</a>
             <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره خرید</a>
         </div>
     </div>
-    <div class="hero-stats">
-        <article class="stat-card"><strong>تحویل</strong><span>از ۵ تا ۳۰ دقیقه</span></article>
-        <article class="stat-card"><strong>پشتیبانی</strong><span>۷ روز هفته</span></article>
-        <article class="stat-card"><strong>گارانتی</strong><span>اصالت سرویس</span></article>
-    </div>
 </section>
 
 <section class="section-head">
     <div>
-        <h2>محصولات ویژه</h2>
-        <p>منتخب سرویس‌های پرفروش با فعال‌سازی سریع و پشتیبانی کامل.</p>
+        <h2>محصولات منتخب</h2>
+        <p>پرفروش‌ترین سرویس‌های قابل تحویل با تضمین پشتیبانی.</p>
     </div>
-    <a class="btn btn-ghost" href="{{ route('products.index') }}">مشاهده همه</a>
 </section>
-<section>
-    <div class="grid">
-        @foreach($featuredProducts as $product)
-            <article class="card card-product">
-                <h3><a href="{{ route('products.show', $product) }}">{{ $product->name }}</a></h3>
-                <p>{{ $product->short_description }}</p>
-                <div class="card-meta">
-                    <strong>{{ number_format($product->price) }} تومان</strong>
-                    <a class="btn btn-sm" href="{{ route('products.show', $product) }}">جزئیات</a>
-                </div>
-            </article>
-        @endforeach
-    </div>
+<section class="grid-cards">
+    @forelse($featuredProducts as $product)
+        @include('partials.store.product-card', ['product' => $product])
+    @empty
+        <article class="panel">محصول ویژه‌ای ثبت نشده است.</article>
+    @endforelse
 </section>
 
 <section class="section-head">
-    <h2>دسته‌بندی‌ها</h2>
+    <h2>بنرهای دسته‌بندی</h2>
 </section>
-<section class="category-grid">
-    @foreach($categories as $category)
-        <a class="card category-card" href="{{ route('products.category', $category) }}">{{ $category->name }}</a>
+<section class="home-banner-grid">
+    @foreach($categories->take(2) as $category)
+        <a href="{{ route('products.category', $category) }}" class="home-banner panel">
+            <div>
+                <span class="badge">{{ $category->name }}</span>
+                <h3>کلکسیون {{ $category->name }}</h3>
+                <p>{{ $category->description ?: 'محصولات این دسته را با پشتیبانی کامل مشاهده کنید.' }}</p>
+            </div>
+            <strong>مشاهده دسته ←</strong>
+        </a>
     @endforeach
+</section>
+
+@if($discountProducts->isNotEmpty())
+<section class="section-head">
+    <div>
+        <h2>پیشنهادهای ویژه</h2>
+        <p>محصولات دارای تخفیف با تحویل سریع و تضمین فعال‌سازی.</p>
+    </div>
+</section>
+<section class="grid-cards">
+    @foreach($discountProducts as $product)
+        @include('partials.store.product-card', ['product' => $product])
+    @endforeach
+</section>
+@endif
+
+<section class="home-collection-banner panel">
+    <div>
+        <span class="kicker">کلکسیون‌های سوشیال مدیا</span>
+        <h2>اکانت اینستاگرام، تلگرام و ابزارهای تولید محتوا</h2>
+        <p>برای مدیریت و رشد سریع کسب‌وکار آنلاین، مجموعه سرویس‌های سوشیال مدیا را ببینید.</p>
+    </div>
+    <a class="btn" href="{{ route('products.index') }}">کشف کلکسیون‌ها</a>
+</section>
+
+<section class="section-head">
+    <h2>شاخص‌های اعتماد</h2>
+</section>
+<section class="home-stats-strip">
+    <article><strong>+۱۰,۰۰۰</strong><span>کاربر فعال</span></article>
+    <article><strong>۳+ سال</strong><span>تجربه خدمات AI</span></article>
+    <article><strong>۱۰۰٪</strong><span>پرداخت امن</span></article>
+</section>
+
+@include('partials.store.trust-strip')
+
+<section class="section-head">
+    <h2>راهنمای انتخاب و خرید</h2>
+</section>
+<section class="seo-content-card panel" data-collapsible>
+    <div class="seo-content" data-collapsible-content>
+        <h3>چطور بهترین پلن را انتخاب کنم؟</h3>
+        <p>اگر استفاده شما روزانه و حرفه‌ای است، پلن‌های کامل‌تر برای شما مناسب‌تر هستند. برای استفاده سبک، پلن‌های اقتصادی انتخاب بهتری خواهند بود.</p>
+        <p>پس از خرید، اطلاعات اکانت و راهنمای فعال‌سازی در سریع‌ترین زمان ارسال می‌شود. تیم پشتیبانی تا زمان فعال شدن کامل سرویس همراه شماست.</p>
+        <p>برای سفارش‌های سازمانی، مشاوره اختصاصی ارائه می‌شود تا انتخاب پلن، تعداد اکانت‌ها، و ساختار دسترسی متناسب با نیاز تیم شما انجام شود.</p>
+    </div>
+    <button class="btn btn-ghost btn-sm" type="button" data-collapsible-toggle>مشاهده توضیحات کامل</button>
 </section>
 
 <section class="section-head">
     <h2>سوالات متداول</h2>
 </section>
-<section class="faq-stack">
+<section class="faq-stack stack">
     @foreach($faqs as $faq)
-        <details class="card faq-item">
+        <details>
             <summary>{{ $faq->question }}</summary>
             <p>{{ $faq->answer }}</p>
         </details>
@@ -62,25 +120,16 @@
 
 <section class="section-head">
     <div>
-        <h2>آخرین مقالات</h2>
-        <p>جدیدترین مطالب آموزشی و راهنمای خرید سرویس‌های دیجیتال.</p>
+        <h2>از مجله نیو جی‌پی‌تی</h2>
+        <p>بررسی محصولات، مقایسه سرویس‌ها و آموزش‌های کاربردی.</p>
     </div>
-    <a class="btn btn-ghost" href="{{ route('blog.index') }}">مشاهده وبلاگ</a>
+    <a class="btn btn-ghost" href="{{ route('blog.index') }}">مشاهده همه مقالات</a>
 </section>
-<section>
-    <div class="grid">
-        @foreach($blogPosts as $post)
-            <article class="card">
-                <h3><a href="{{ route('blog.show',$post) }}">{{ $post->title }}</a></h3>
-                <p>{{ $post->excerpt }}</p>
-            </article>
-        @endforeach
-    </div>
-</section>
-
-<section class="cta-strip">
-    <h2>برای انتخاب بهترین اشتراک نیاز به راهنمایی دارید؟</h2>
-    <p>تیم پشتیبانی آماده است تا مناسب‌ترین پلن را بر اساس نیاز شما معرفی کند.</p>
-    <a class="btn" href="{{ route('contact') }}">ارتباط با پشتیبانی</a>
+<section class="grid-cards">
+    @forelse($blogPosts as $post)
+        @include('partials.store.blog-card', ['post' => $post])
+    @empty
+        <article class="panel">مقاله‌ای برای نمایش وجود ندارد.</article>
+    @endforelse
 </section>
 @endsection
