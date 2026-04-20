@@ -1,6 +1,19 @@
 @extends('layouts.app')
 @section('content')
-<h1>وبلاگ</h1>
-<div class="grid">@foreach($posts as $post)<article class="card"><h2><a href="{{ route('blog.show',$post) }}">{{ $post->title }}</a></h2><p>{{ $post->excerpt }}</p></article>@endforeach</div>
-{{ $posts->links() }}
+<section class="section-head">
+    <div>
+        <h1>مجله خرید هوشمند</h1>
+        <p>راهنمای پلن‌ها، مقایسه سرویس‌ها، و نکات استفاده حرفه‌ای از اشتراک‌های دیجیتال.</p>
+    </div>
+</section>
+
+<section class="grid-cards">
+    @forelse($posts as $post)
+        @include('partials.store.blog-card', ['post' => $post])
+    @empty
+        <article class="panel">هنوز مقاله‌ای منتشر نشده است.</article>
+    @endforelse
+</section>
+
+<div style="margin-top:1rem">{{ $posts->links() }}</div>
 @endsection
