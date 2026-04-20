@@ -22,6 +22,14 @@ fi
 
 cd /var/www/html
 
+if [ -n "${RENDER_EXTERNAL_URL:-}" ]; then
+  if grep -q '^APP_URL=' .env; then
+    sed -i "s|^APP_URL=.*|APP_URL=${RENDER_EXTERNAL_URL}|" .env
+  else
+    echo "APP_URL=${RENDER_EXTERNAL_URL}" >> .env
+  fi
+fi
+
 if ! grep -q '^APP_KEY=base64:' .env; then
   php artisan key:generate --force
 fi
