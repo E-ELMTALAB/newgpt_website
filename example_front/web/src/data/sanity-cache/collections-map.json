@@ -1,0 +1,461 @@
+{
+  "social-media": {
+    "_id": "3554aa59-6a63-4075-b934-e64645dffb14",
+    "coverImage": {
+      "_type": "image",
+      "alt": "محصولات سوشال مدیا",
+      "asset": {
+        "_createdAt": "2025-11-24T16:39:47Z",
+        "_id": "image-2f468509c772225825a69c1643f7994ee1b8a9df-800x533-jpg",
+        "_rev": "2u1wzlRSaIqkYNMBRL7mVY",
+        "_type": "sanity.imageAsset",
+        "_updatedAt": "2025-11-24T16:39:47Z",
+        "assetId": "2f468509c772225825a69c1643f7994ee1b8a9df",
+        "extension": "jpg",
+        "metadata": {
+          "_type": "sanity.imageMetadata",
+          "blurHash": "VDAmuZ004m~XNa^mE0NG-WNZDOx]x]VYScDhx^s:NFof",
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.5009380863039399,
+            "height": 533,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true,
+          "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwAEBf/EACIQAAICAgEDBQAAAAAAAAAAAAEDAgUAEQQGMVEUFSFh0f/EABYBAQEBAAAAAAAAAAAAAAAAAAIDBP/EABkRAAMAAwAAAAAAAAAAAAAAAAABAhESIf/aAAwDAQACEQMRAD8AAqJQY+IPbePNHU06KFB5UUzLIklmtmP0fGAdQwwZEjviBxrfke3lJIMCNEZoZKG56jJ1FxqwWrPQFgT4mPkH8yzjPmQ2Whlj2Dg//9k=",
+          "palette": {
+            "_type": "sanity.imagePalette",
+            "darkMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#2c3341",
+              "foreground": "#fff",
+              "population": 7.66,
+              "title": "#fff"
+            },
+            "darkVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#145c4c",
+              "foreground": "#fff",
+              "population": 0.03,
+              "title": "#fff"
+            },
+            "dominant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#2c3341",
+              "foreground": "#fff",
+              "population": 7.66,
+              "title": "#fff"
+            },
+            "lightMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#d5d3ce",
+              "foreground": "#000",
+              "population": 6.93,
+              "title": "#000"
+            },
+            "lightVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#79a9cd",
+              "foreground": "#000",
+              "population": 3.4,
+              "title": "#fff"
+            },
+            "muted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#717783",
+              "foreground": "#fff",
+              "population": 7.63,
+              "title": "#fff"
+            },
+            "vibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#de4058",
+              "foreground": "#fff",
+              "population": 1.62,
+              "title": "#fff"
+            }
+          }
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "social-media-platform-logos-1.jpg",
+        "path": "images/zrvdkcjy/production/2f468509c772225825a69c1643f7994ee1b8a9df-800x533.jpg",
+        "sha1hash": "2f468509c772225825a69c1643f7994ee1b8a9df",
+        "size": 53614,
+        "uploadId": "LT20qX0Z2tzRCvJc2VLctSCunBBbpkn6",
+        "url": "https://cdn.sanity.io/images/zrvdkcjy/production/2f468509c772225825a69c1643f7994ee1b8a9df-800x533.jpg"
+      }
+    },
+    "faq": null,
+    "heroSubtitle": "تمامی محصولات فضای مجازی که نیاز دارید",
+    "heroTitle": "محصولات سوشال مدیا",
+    "key": "social-media",
+    "products": [
+      {
+        "_id": "a4877557-a0f9-4b7a-a5ab-190a8d13e179",
+        "badges": [
+          "Original",
+          "تحویل ۱-۱۲ ساعت",
+          "فعال سازی روی اکانت شما",
+          "پشتیبانی تلگرام",
+          "ضمانت تعویض"
+        ],
+        "category": "Telegram (Premium)",
+        "discountPercentage": null,
+        "image": {
+          "_type": "image",
+          "alt": "لوگوی Telegram Premium",
+          "asset": {
+            "_ref": "image-c8191968818e56ba67df52445278cf67af7406e7-1024x1536-webp",
+            "_type": "reference"
+          },
+          "caption": "خرید اکانت telegram premium | ضمانت تعویض |‌فعال سازی روی اکانت شما | قانونی |پشتیبانی فعال"
+        },
+        "inStock": true,
+        "name": "اکانت Telegram Premium",
+        "originalPrice": null,
+        "price": null,
+        "rating": null,
+        "reviewCount": null,
+        "slug": "telegram-premium"
+      }
+    ],
+    "seo": {
+      "canonicalUrl": null,
+      "metaDescription": null,
+      "metaTitle": null,
+      "openGraphDescription": null,
+      "openGraphImage": null,
+      "openGraphTitle": null,
+      "robotsMeta": "index,follow",
+      "structuredData": null
+    },
+    "slug": "social-media",
+    "title": "محصولات سوشال مدیا"
+  },
+  "image-video-generation": {
+    "_id": "b1c5c1c9-939a-4171-bbb8-fd15a4aca14b",
+    "coverImage": {
+      "_type": "image",
+      "alt": "هوش مصنوعی های تولید محتوا عکس و فیلم",
+      "asset": {
+        "_createdAt": "2025-11-24T11:29:47Z",
+        "_id": "image-b368bae2cd16be36630bed947fab17484ca8da08-1700x850-jpg",
+        "_rev": "2u1wzlRSaIqkYNMBRJgXW6",
+        "_type": "sanity.imageAsset",
+        "_updatedAt": "2025-11-24T11:29:47Z",
+        "assetId": "b368bae2cd16be36630bed947fab17484ca8da08",
+        "extension": "jpg",
+        "metadata": {
+          "_type": "sanity.imageMetadata",
+          "blurHash": "MKA9ms{4+%tnNLs=oOaKX8S#53GYJ4Vrxt",
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 850,
+            "width": 1700
+          },
+          "hasAlpha": false,
+          "isOpaque": true,
+          "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUDBgf/xAAiEAACAQQCAQUAAAAAAAAAAAABAwIABAUREiEGIjFBYZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAgX/xAAhEQABAwIHAQAAAAAAAAAAAAACAAEDERMEBRIhM1GhUv/aAAwDAQACEQMRAD8AxTI2GISGBUWymASDUuLs8Vl7NaL27Yma47W3j19xNI8vOYe7UpDv4NL4SIso6JHqpo4i4ZO7bdJWdOMxDbFgp0n2S8btLa6ktOUSxetiWqKrLJHl7n9oqtcfx6sho5acnjL/2Q==",
+          "palette": {
+            "_type": "sanity.imagePalette",
+            "darkMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#182c34",
+              "foreground": "#fff",
+              "population": 0.07,
+              "title": "#fff"
+            },
+            "darkVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#09466e",
+              "foreground": "#fff",
+              "population": 7.03,
+              "title": "#fff"
+            },
+            "dominant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#09466e",
+              "foreground": "#fff",
+              "population": 7.03,
+              "title": "#fff"
+            },
+            "lightMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#0f7789",
+              "foreground": "#fff",
+              "population": 0,
+              "title": "#fff"
+            },
+            "lightVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#9de7f4",
+              "foreground": "#000",
+              "population": 1,
+              "title": "#000"
+            },
+            "muted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#7e443e",
+              "foreground": "#fff",
+              "population": 0.06,
+              "title": "#fff"
+            },
+            "vibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#ba0b76",
+              "foreground": "#fff",
+              "population": 6.2,
+              "title": "#fff"
+            }
+          }
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "ai-video-generation-platform-overview-2025.jpg",
+        "path": "images/zrvdkcjy/production/b368bae2cd16be36630bed947fab17484ca8da08-1700x850.jpg",
+        "sha1hash": "b368bae2cd16be36630bed947fab17484ca8da08",
+        "size": 257911,
+        "uploadId": "7jmfjYkkYc5XnFN2XmIoAD2Fefb35PZo",
+        "url": "https://cdn.sanity.io/images/zrvdkcjy/production/b368bae2cd16be36630bed947fab17484ca8da08-1700x850.jpg"
+      }
+    },
+    "faq": null,
+    "heroSubtitle": "تمامی هوش مصنوعی هایی که برای تولید محتواهات مثل عکس و ویدیو لازم داری ",
+    "heroTitle": "هوش مصنوعی های تولید محتوا",
+    "key": "image-video-generation",
+    "products": [
+      {
+        "_id": "e78e2ead-ff43-4543-9e84-cd2d53087b56",
+        "badges": [
+          "Original",
+          "Capcut Pro",
+          "ویژه اینستاگرام",
+          "بدون واترمارک",
+          "ابزارهای هوش مصنوعی"
+        ],
+        "category": "ادیت ویدیو",
+        "discountPercentage": null,
+        "image": {
+          "_type": "image",
+          "alt": "لوگوی Capcut",
+          "asset": {
+            "_ref": "image-ff87e2a331bbf4d1ce9a321dd105c93283a4a76c-1024x1536-webp",
+            "_type": "reference"
+          },
+          "caption": "خرید اکانت Capcut | قانونی | ضمانت تعویض | ادیت حرفه ای بدون واترمارک"
+        },
+        "inStock": true,
+        "name": " اکانت Capcut",
+        "originalPrice": null,
+        "price": null,
+        "rating": null,
+        "reviewCount": null,
+        "slug": "capcut-pro"
+      }
+    ],
+    "seo": {
+      "canonicalUrl": null,
+      "metaDescription": null,
+      "metaTitle": null,
+      "openGraphDescription": null,
+      "openGraphImage": null,
+      "openGraphTitle": null,
+      "robotsMeta": "index,follow",
+      "structuredData": null
+    },
+    "slug": "image-video-generation",
+    "title": "هوش مصنوعی های تولید محتوا "
+  },
+  "ai-chatbot": {
+    "_id": "ad58af2b-a352-4751-94a5-21598de95bc6",
+    "coverImage": {
+      "_type": "image",
+      "alt": "ai-chatbot",
+      "asset": {
+        "_createdAt": "2025-10-08T20:18:14Z",
+        "_id": "image-fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89-1024x576-jpg",
+        "_rev": "39tr2dGATJPXMGnTVhzuZ1",
+        "_type": "sanity.imageAsset",
+        "_updatedAt": "2025-10-08T20:18:14Z",
+        "assetId": "fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89",
+        "extension": "jpg",
+        "metadata": {
+          "_type": "sanity.imageMetadata",
+          "blurHash": "M8Am9;0yFy}Z5U^+9Gbx%1WBP9#8jdOr$K",
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.7777777777777777,
+            "height": 576,
+            "width": 1024
+          },
+          "hasAlpha": false,
+          "isOpaque": true,
+          "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCB//EACUQAAEDAwMDBQAAAAAAAAAAAAECAwQABSEREiIGMUITUXGB0f/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABwRAAICAgMAAAAAAAAAAAAAAAABAhEDBCEicf/aAAwDAQACEQMRAD8A4GW4LkX1UxUDa2lAGc+6qrwp1qQ8629aI5S7H2BWeBHl81BFwlIhNpS6QEoAHEYrUa5S1LGr2vA+I/KmXtFmmm6mr59HVNygTbkhyJbWYrYZQjYjsSBk/dKj3GS67I3OK1OgHYUp2GTTbpH/2Q==",
+          "palette": {
+            "_type": "sanity.imagePalette",
+            "darkMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#295432",
+              "foreground": "#fff",
+              "population": 1.39,
+              "title": "#fff"
+            },
+            "darkVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#113c63",
+              "foreground": "#fff",
+              "population": 2.93,
+              "title": "#fff"
+            },
+            "dominant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#113c63",
+              "foreground": "#fff",
+              "population": 2.93,
+              "title": "#fff"
+            },
+            "lightMuted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#c5b6c1",
+              "foreground": "#000",
+              "population": 0.15,
+              "title": "#fff"
+            },
+            "lightVibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#f0e086",
+              "foreground": "#000",
+              "population": 0.03,
+              "title": "#000"
+            },
+            "muted": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#6a70ae",
+              "foreground": "#fff",
+              "population": 0.15,
+              "title": "#fff"
+            },
+            "vibrant": {
+              "_type": "sanity.imagePaletteSwatch",
+              "background": "#e73410",
+              "foreground": "#fff",
+              "population": 0.35,
+              "title": "#fff"
+            }
+          }
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "Ultimate-AI-Models-Comparison-–-Llama-ChatGPT-Claude-Mistral-Gemini-1-1024x576.jpg",
+        "path": "images/zrvdkcjy/production/fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89-1024x576.jpg",
+        "sha1hash": "fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89",
+        "size": 105782,
+        "uploadId": "njUVFsqCdme6PWEYrBIFzq3vOM0Go22I",
+        "url": "https://cdn.sanity.io/images/zrvdkcjy/production/fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89-1024x576.jpg"
+      }
+    },
+    "faq": null,
+    "heroSubtitle": "معتبر ترین و قویترین چت بات های موجود در جهان",
+    "heroTitle": "چت بات های هوش مصنوعی",
+    "key": "ai-chatbot",
+    "products": [
+      {
+        "_id": "18751111-bba5-4402-8f00-db96c14d1cd1",
+        "badges": [
+          "Claude Pro",
+          "اکانت یک ماهه پریمیوم",
+          "تولید محتوا ",
+          "برنامه نویسی",
+          "تحلیل و مقاله",
+          "تحویل ۱ الی ۱۲ ساعت"
+        ],
+        "category": "ابزار های بهره وری و تحقیق با هوش مصنوعی",
+        "discountPercentage": null,
+        "image": {
+          "_type": "image",
+          "alt": "تصویر لوگوی Claude Pro",
+          "asset": {
+            "_ref": "image-c811302a503427e9a622277110c104fbdf82f396-1024x1536-webp",
+            "_type": "reference"
+          },
+          "caption": "خرید اکانت Claude Pro | قانونی | ضمانت تعویض | پشتیبانی در دسترس"
+        },
+        "inStock": true,
+        "name": "اکانت Claude pro ",
+        "originalPrice": null,
+        "price": null,
+        "rating": null,
+        "reviewCount": null,
+        "slug": "claude-pro"
+      },
+      {
+        "_id": "43b729e3-0429-460e-bdd0-6bb723aa4380",
+        "badges": [
+          "Monica",
+          "Original",
+          "قانونی ",
+          "پشتیبانی فعال در تلگرام",
+          "ضمانت تعویض",
+          "فعال سازی نهایتا تا ۱ ساعت"
+        ],
+        "category": "دستیار هوش مصنوعی",
+        "discountPercentage": null,
+        "image": {
+          "_type": "image",
+          "alt": "تصویر لوگوی Monica AI ",
+          "asset": {
+            "_ref": "image-72189deb19a81d66551817fcbb8bafd8ef25193f-754x426-png",
+            "_type": "reference"
+          },
+          "caption": "اکانت Monica | ضمانت تعویض| تحویل نهایت تا ۱ ساعت | پشتیبانی فعال"
+        },
+        "inStock": true,
+        "name": "اکانت Monica",
+        "originalPrice": null,
+        "price": null,
+        "rating": null,
+        "reviewCount": null,
+        "slug": "monica-account"
+      },
+      {
+        "_id": "25f64b2e-da12-4351-b496-57fd461d990a",
+        "badges": [
+          "",
+          "Bestseller",
+          "Popular",
+          ""
+        ],
+        "category": "ai account ",
+        "discountPercentage": null,
+        "image": {
+          "_type": "image",
+          "alt": "خرید اکانت chatgpt plus",
+          "asset": {
+            "_ref": "image-fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536-webp",
+            "_type": "reference"
+          },
+          "caption": "با خرید اکانت ChatGPT Plus، از دسترسی نامحدود به GPT-4 و ابزارهای پیشرفته هوش مصنوعی لذت ببرید"
+        },
+        "inStock": null,
+        "name": " اکانت ChatGPT Plus اختصاصی ",
+        "originalPrice": null,
+        "price": null,
+        "rating": 4.5,
+        "reviewCount": 4054,
+        "slug": "chatgpt-plus"
+      }
+    ],
+    "seo": {
+      "canonicalUrl": null,
+      "metaDescription": null,
+      "metaTitle": null,
+      "openGraphDescription": null,
+      "openGraphImage": null,
+      "openGraphTitle": null,
+      "robotsMeta": "index,follow",
+      "structuredData": null
+    },
+    "slug": "ai-chatbot",
+    "title": "چت بات های هوش مصنوعی "
+  }
+}

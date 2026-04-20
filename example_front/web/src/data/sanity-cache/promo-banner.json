@@ -1,0 +1,98 @@
+{
+  "_id": "29dd29e8-67be-4e44-be7d-887c8a4fa9f2",
+  "_type": "promoBanner",
+  "_updatedAt": "2026-02-13T12:27:50Z",
+  "backgroundImage": {
+    "_type": "image",
+    "alt": "بنر تخفیف ویژه محصولات هوش مصنوعی",
+    "asset": {
+      "_createdAt": "2026-02-12T17:07:34Z",
+      "_id": "image-8bafde579d16f55a572686018f48fc8cf17bc80d-1200x720-heif",
+      "_rev": "eJOEam2O58PKwWdspRrXUu",
+      "_type": "sanity.imageAsset",
+      "_updatedAt": "2026-02-12T17:07:34Z",
+      "assetId": "8bafde579d16f55a572686018f48fc8cf17bc80d",
+      "extension": "heif",
+      "metadata": {
+        "_type": "sanity.imageMetadata",
+        "blurHash": "M9Q0Q{%M?^ozIA-ojZX9bbs.%gWCIToftR",
+        "dimensions": {
+          "_type": "sanity.imageDimensions",
+          "aspectRatio": 1.6666666666666667,
+          "height": 720,
+          "width": 1200
+        },
+        "hasAlpha": false,
+        "isOpaque": true,
+        "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFCP/EAB0QAAICAwADAAAAAAAAAAAAAAABAgMEESEiM1H/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8A0Fd629ta7wm4WW78vxk5Q24tfGVRFWPXXdKcE02tERVyHgACH//Z",
+        "palette": {
+          "_type": "sanity.imagePalette",
+          "darkMuted": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#483430",
+            "foreground": "#fff",
+            "population": 0.01,
+            "title": "#fff"
+          },
+          "darkVibrant": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#603424",
+            "foreground": "#fff",
+            "population": 0,
+            "title": "#fff"
+          },
+          "dominant": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#c68168",
+            "foreground": "#fff",
+            "population": 0.26,
+            "title": "#fff"
+          },
+          "lightMuted": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#ccae9f",
+            "foreground": "#000",
+            "population": 0.25,
+            "title": "#fff"
+          },
+          "lightVibrant": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#e49682",
+            "foreground": "#000",
+            "population": 0.08,
+            "title": "#fff"
+          },
+          "muted": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#826058",
+            "foreground": "#fff",
+            "population": 0.01,
+            "title": "#fff"
+          },
+          "vibrant": {
+            "_type": "sanity.imagePaletteSwatch",
+            "background": "#c68168",
+            "foreground": "#fff",
+            "population": 0.26,
+            "title": "#fff"
+          }
+        },
+        "thumbHash": "NwgGBID4Rol3h3h7hXcJjISwSA=="
+      },
+      "mimeType": "image/heif",
+      "originalFilename": "d703c1758c006406b25535b95d1734339ba34826-1200x720.avif",
+      "path": "images/zrvdkcjy/production/8bafde579d16f55a572686018f48fc8cf17bc80d-1200x720.heif",
+      "sha1hash": "8bafde579d16f55a572686018f48fc8cf17bc80d",
+      "size": 6849,
+      "uploadId": "fGaqWjvXjKQC767kS4IrEp0mzpV8LZ8u",
+      "url": "https://cdn.sanity.io/images/zrvdkcjy/production/8bafde579d16f55a572686018f48fc8cf17bc80d-1200x720.heif"
+    }
+  },
+  "buttonLink": "https://sharifgpt.com/products",
+  "buttonText": "مشاهده محصولات",
+  "description": "روتارتامتالنتلابماتلمتامبملبوم",
+  "isActive": true,
+  "order": 1,
+  "subtitle": "تخفیفاتتتتت",
+  "title": "promoBanner"
+}

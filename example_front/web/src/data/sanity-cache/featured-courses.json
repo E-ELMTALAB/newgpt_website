@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "f33c08c3-1198-45ae-8f78-19df5d9d6a12",
+    "category": "ai",
+    "duration": "4",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "prompt-engineering",
+      "asset": {
+        "_ref": "image-e19b8d5a4d25681558b181d013ce8da2245171c3-1024x576-webp",
+        "_type": "reference"
+      },
+      "caption": "prompt-engineering image "
+    },
+    "instructor": {
+      "avatar": null,
+      "name": "erfan elmtalab"
+    },
+    "level": "intermediate",
+    "originalPrice": 6000000,
+    "price": 5800000,
+    "rating": 4.8,
+    "reviewCount": 238,
+    "shortDescription": "about the course",
+    "slug": "prompt-engineering",
+    "title": "prompt engineering",
+    "totalStudents": 69
+  }
+]

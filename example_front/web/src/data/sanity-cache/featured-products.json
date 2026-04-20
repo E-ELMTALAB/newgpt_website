@@ -1,0 +1,216 @@
+[
+  {
+    "_id": "37494044-db69-4f55-af5d-a11cdca9bb00",
+    "badges": [
+      "تحویل فوری",
+      "بدون نیاز به VPN"
+    ],
+    "category": "اکانت هوش مصنوعی",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "اکانت chatgpt plus اشتراکی ",
+      "asset": {
+        "_ref": "image-b9a412b060beb3c42ffe9ce123282cae56d8305d-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "اکانت chatgpt plus اشتراکی "
+    },
+    "inStock": null,
+    "name": "اکانت اشتراکی ChatGPT Plus",
+    "originalPrice": null,
+    "price": null,
+    "rating": 4.6,
+    "reviewCount": 1125,
+    "slug": "chatgpt-plus-shared"
+  },
+  {
+    "_id": "a6f6941e-8aa9-4dd4-b086-3f1a537c8cea",
+    "badges": [
+      "تحویل ۱ -۱۲ ساعت ",
+      "Original",
+      "Ultra Gemini",
+      "پشتیبانی تلگرام"
+    ],
+    "category": " Gemini (Google)",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "لوگو Google Gemini Ultra",
+      "asset": {
+        "_ref": "image-ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "پلن  پریمیوم گوگل برای هوش مصنوعی - Gemini Ultra"
+    },
+    "inStock": null,
+    "name": "اکانت Gemini Ultra  (Google)",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "gemini-ultra"
+  },
+  {
+    "_id": "bd60957d-c859-4209-a808-df0935409350",
+    "badges": [
+      "مناسب کاربران حرفه‌ای"
+    ],
+    "category": "اکانت‌های هوش مصنوعی",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "gpt pro",
+      "asset": {
+        "_ref": "image-b9cf45b2475a1e60557da051571e6f3878a23384-1024x1536-png",
+        "_type": "reference"
+      }
+    },
+    "inStock": null,
+    "name": "اکانت اشتراکی ChatGPT Pro",
+    "originalPrice": null,
+    "price": null,
+    "rating": 4.9,
+    "reviewCount": 375,
+    "slug": "chatgpt-pro"
+  },
+  {
+    "_id": "3a4971d4-93f6-4005-9312-9c5573904c19",
+    "badges": [
+      "Original",
+      "Spotify",
+      "تحویل ۱-۱۲ ساعت",
+      "پشتیبانی فعال",
+      "ضمانت تعویض",
+      "اکانت اماده"
+    ],
+    "category": "Spotify",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "لوگو Spotify",
+      "asset": {
+        "_ref": "image-5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "خرید اکانت spotify | قانونی | ضمانت تعویض| پشیبانی فعال"
+    },
+    "inStock": true,
+    "name": "اکانت Spotify",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "spotify-premium"
+  },
+  {
+    "_id": "562616ee-f5f3-4e70-a727-430f6ea71ec4",
+    "badges": [
+      "Copilot Pro",
+      "Original",
+      "هوش مصنوعی کد نویسی",
+      "کمک در دیباگ"
+    ],
+    "category": "GitHub",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "‌لوگوی Github Copilot",
+      "asset": {
+        "_ref": "image-3a7bb8695d7250adb5c9a5d9431b6a41ebf20da0-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "خرید اکانت GitHub Copilot Pro با دسترسی کامل به قابلیت‌های AI کدنویسی؛ مناسب توسعه‌دهندگان برای کاهش زمان توسعه، بهبود روند کدنویسی و افزایش خروجی پروژه‌ها."
+    },
+    "inStock": true,
+    "name": "Github Copilot اکانت  ",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "github-copilot"
+  },
+  {
+    "_id": "c00e09b4-8b81-403c-82d3-35dad9d16b03",
+    "badges": [
+      "Cursor",
+      "Orginal",
+      "تحویل نهایتا تا ۱ ساعت",
+      "ضمانت تعویض",
+      "پشتیبانی فعال در تلگرام"
+    ],
+    "category": "Cursor",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "لوگوی Cursor",
+      "asset": {
+        "_ref": "image-b5c3f5ef5aa7716db5af9166f3c3994aae68d302-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "خرید اکانت Cursor | پشتیبانی تلگرام فعال |‌ ضمانت تعویض | تحویل ۱-۱۲ است"
+    },
+    "inStock": true,
+    "name": "اکانت Cursor Pro",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "cursor-ai"
+  },
+  {
+    "_id": "e78e2ead-ff43-4543-9e84-cd2d53087b56",
+    "badges": [
+      "Original",
+      "Capcut Pro",
+      "ویژه اینستاگرام",
+      "بدون واترمارک",
+      "ابزارهای هوش مصنوعی"
+    ],
+    "category": "ادیت ویدیو",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": "لوگوی Capcut",
+      "asset": {
+        "_ref": "image-ff87e2a331bbf4d1ce9a321dd105c93283a4a76c-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "خرید اکانت Capcut | قانونی | ضمانت تعویض | ادیت حرفه ای بدون واترمارک"
+    },
+    "inStock": true,
+    "name": " اکانت Capcut",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "capcut-pro"
+  },
+  {
+    "_id": "7d19cb0a-8ec9-4139-b909-c8bc09d69ef2",
+    "badges": [
+      "Original",
+      "Duolingo",
+      "یادگیری با بازی و سرگرمی",
+      "مناسب مبتدی تا پیشرفته"
+    ],
+    "category": "آموزش زبان",
+    "discountPercentage": null,
+    "image": {
+      "_type": "image",
+      "alt": " Duolingo  لوگوی",
+      "asset": {
+        "_ref": "image-119471023b843258e3fe12b0ed87473005535724-1024x1536-webp",
+        "_type": "reference"
+      },
+      "caption": "اکانت Duolingo | خرید قانونی |‌ ضمانت تعویض "
+    },
+    "inStock": null,
+    "name": " اکانت Duolingo",
+    "originalPrice": null,
+    "price": null,
+    "rating": null,
+    "reviewCount": null,
+    "slug": "doulingo-plus-max"
+  }
+]

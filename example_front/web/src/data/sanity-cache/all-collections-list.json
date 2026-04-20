@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "3554aa59-6a63-4075-b934-e64645dffb14",
+    "coverImage": {
+      "_type": "image",
+      "alt": "محصولات سوشال مدیا",
+      "asset": {
+        "_ref": "image-2f468509c772225825a69c1643f7994ee1b8a9df-800x533-jpg",
+        "_type": "reference"
+      }
+    },
+    "slug": "social-media",
+    "title": "محصولات سوشال مدیا"
+  },
+  {
+    "_id": "b1c5c1c9-939a-4171-bbb8-fd15a4aca14b",
+    "coverImage": {
+      "_type": "image",
+      "alt": "هوش مصنوعی های تولید محتوا عکس و فیلم",
+      "asset": {
+        "_ref": "image-b368bae2cd16be36630bed947fab17484ca8da08-1700x850-jpg",
+        "_type": "reference"
+      }
+    },
+    "slug": "image-video-generation",
+    "title": "هوش مصنوعی های تولید محتوا "
+  },
+  {
+    "_id": "ad58af2b-a352-4751-94a5-21598de95bc6",
+    "coverImage": {
+      "_type": "image",
+      "alt": "ai-chatbot",
+      "asset": {
+        "_ref": "image-fee7b6cd5514c7c52e81aa3d04e396c13d2d6d89-1024x576-jpg",
+        "_type": "reference"
+      }
+    },
+    "slug": "ai-chatbot",
+    "title": "چت بات های هوش مصنوعی "
+  }
+]

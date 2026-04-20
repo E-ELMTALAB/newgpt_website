@@ -1,0 +1,1849 @@
+{
+  "_id": "home",
+  "_type": "home",
+  "bestSellerProducts": [
+    {
+      "_id": "25f64b2e-da12-4351-b496-57fd461d990a",
+      "_key": "2900eef7e9be",
+      "badges": [
+        "",
+        "Bestseller",
+        "Popular",
+        ""
+      ],
+      "category": "ai account ",
+      "image": {
+        "_type": "image",
+        "alt": "خرید اکانت chatgpt plus",
+        "asset": {
+          "_createdAt": "2026-02-16T17:55:24Z",
+          "_id": "image-fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaClfw",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:55:24Z",
+          "assetId": "fbcfe20cd855960d4aa4d8a5de348b12abd27a5d",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dB1%vJZPVNjun4aLbJe:l,b]eTf*bLfkk*g2Zlfjk-fi",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgP/xAAhEAACAgIDAAIDAAAAAAAAAAABAgADBBEFEjETIRQVcf/EABgBAQADAQAAAAAAAAAAAAAAAAIDBAUG/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQQhAxITMTL/2gAMAwEAAhEDEQA/AMBk8t+JbTTTV819p0F3rUp5ufk4C0vk46GpyAWRt9dzD5+Q1HM4twZVCHe28lXmOdXkKqKKXrLF12ASSfuQznPyJRWjjYYqSi+tp+2a9m2djwwify/S/wAEJZoyuzIv6hcojum47icBVjOLFqHYefUewbOp8lGy89PIHpilkcnzeiU1bBvITpZaSxhHbBR//9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#25444c",
+                "foreground": "#fff",
+                "population": 0.02,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#048c64",
+                "foreground": "#fff",
+                "population": 9.19,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#048c64",
+                "foreground": "#fff",
+                "population": 9.19,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0e8a2a",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#4ded72",
+                "foreground": "#000",
+                "population": 3.58,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#56b46e",
+                "foreground": "#fff",
+                "population": 0.13,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0e9c6b",
+                "foreground": "#fff",
+                "population": 9.06,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "khcFDQaEp3Z4+WiYiIaZmAmMs9UI"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "c52a8b98-cb23-4c72-9602-523b3cb1eea7_18_11zon.webp",
+          "path": "images/zrvdkcjy/production/fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536.webp",
+          "sha1hash": "fbcfe20cd855960d4aa4d8a5de348b12abd27a5d",
+          "size": 28838,
+          "uploadId": "fvG9pdVzJahiTCyIzt3IyvPIZmgsdifz",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536.webp"
+        },
+        "caption": "با خرید اکانت ChatGPT Plus، از دسترسی نامحدود به GPT-4 و ابزارهای پیشرفته هوش مصنوعی لذت ببرید"
+      },
+      "name": " اکانت ChatGPT Plus اختصاصی ",
+      "slug": "chatgpt-plus"
+    },
+    {
+      "_id": "37494044-db69-4f55-af5d-a11cdca9bb00",
+      "_key": "e3a825e5d408",
+      "badges": [
+        "تحویل فوری",
+        "بدون نیاز به VPN"
+      ],
+      "category": "اکانت هوش مصنوعی",
+      "image": {
+        "_type": "image",
+        "alt": "اکانت chatgpt plus اشتراکی ",
+        "asset": {
+          "_createdAt": "2026-02-16T18:39:18Z",
+          "_id": "image-b9a412b060beb3c42ffe9ce123282cae56d8305d-1024x1536-webp",
+          "_rev": "KFKR0hPScPtkXdri1P6YBr",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:39:18Z",
+          "assetId": "b9a412b060beb3c42ffe9ce123282cae56d8305d",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dV7x}ORMV}f9W6awj_aytWkEW8j@fqfSk7j]V?jrkDfR",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAUGAwIH/8QAJBAAAgICAQMEAwAAAAAAAAAAAQMAAgQRBRITIQYjMXEyQUL/xAAYAQADAQEAAAAAAAAAAAAAAAABAwUCB//EABwRAAICAgMAAAAAAAAAAAAAAAABAhEDMQQSIf/aAAwDAQACEQMRAD8Aghyi8NqULX3XsOhXeo9fyDMMKL8cdFyATW29bnm+Tk9jnMZ12Cla/wBWGxKHN51OeEIx3Uuw3GxUE78zoOXkyWSUbqtEZY9eFrelTbY/cJkWfH0ISlQklcfgKZpBZQH7jrj/AEwnDYG0TXrHwdTfh8jpAOo7vme3+MEopO0jatrYnctgYRqE6flEsPiEZTB1P//Z",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#34345c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#122392",
+                "foreground": "#fff",
+                "population": 7.37,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#4c6cf4",
+                "foreground": "#fff",
+                "population": 8.31,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#054393",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7eb4fa",
+                "foreground": "#000",
+                "population": 3.2,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#082290",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#4c6cf4",
+                "foreground": "#fff",
+                "population": 8.31,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "3cMJFQCCp3R5+VmneHWZmAiNkTQJ"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "e54e095a-c65f-4a7f-ab53-99763c23d6b5_2_11zon.webp",
+          "path": "images/zrvdkcjy/production/b9a412b060beb3c42ffe9ce123282cae56d8305d-1024x1536.webp",
+          "sha1hash": "b9a412b060beb3c42ffe9ce123282cae56d8305d",
+          "size": 123920,
+          "uploadId": "fKLYt4KC60nkRKRFJQvdjU9w9h0wmN8S",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/b9a412b060beb3c42ffe9ce123282cae56d8305d-1024x1536.webp"
+        },
+        "caption": "اکانت chatgpt plus اشتراکی "
+      },
+      "name": "اکانت اشتراکی ChatGPT Plus",
+      "slug": "chatgpt-plus-shared"
+    },
+    {
+      "_id": "bd60957d-c859-4209-a808-df0935409350",
+      "_key": "3318dd15eaa9",
+      "badges": [
+        "مناسب کاربران حرفه‌ای"
+      ],
+      "category": "اکانت‌های هوش مصنوعی",
+      "image": {
+        "_type": "image",
+        "alt": "gpt pro",
+        "asset": {
+          "_createdAt": "2025-12-04T17:36:56Z",
+          "_id": "image-b9cf45b2475a1e60557da051571e6f3878a23384-1024x1536-png",
+          "_rev": "82LxAjbTYkGzFfRMz2UQZk",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2025-12-04T17:36:56Z",
+          "assetId": "b9cf45b2475a1e60557da051571e6f3878a23384",
+          "extension": "png",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dEEv3iAQJ3juj]S0j?WU][srR~oMspjvx0oNJ3j@x0fR",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAIAAACjcKk8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGkElEQVR4nE2U6U9bVxrG70cwYYttwDu+93o393qBTGY0TZRp05ASIIWWkIYtrIHECQ2bbcAbXsD7vhts8AIYMGDs2EBCKnVRmrbpnzQyTKSRHr0fjvQ776Pn6DyAnBZYbgyrwA0tvLXKTJrYO1bOvoN36OZnvUjOh+YD6JugoBC6krAQFBaCgrwfyXmbsoCcGryEo5fwtpmdtnEyTt6xpynnQ9/40UIQLYYFp2FBMSQsXsGB0vklLKMGlmhhFT2qgxNrzB0LZ9/GzTj4x27kxIPmfYJCQFAMC0/DotOI6CwsOgsKiwE070Nznit4sQTHdHBCx0go4LCU4ZEyvQp2RMPdWuHFV3ibWn7MgMQdgkxQVAwJTwPoGx+S8/CzgJTil9NCisYNBX19mmZ5RJhuI4x0k18+Aw0yVljGDEsg6zCoGICkEtaqCd0OXNr2Ijk3PwvMU7xSil9KDbwiW7rwL/5Z0/kFtucJSa6A4w7uuZv3Vs/afwk6usiSh5Rnc2yHR3ASEBQ9V/AMyTlDcr0kWvrwsltVPeLKB911rzXQToD92wb3rxjv7zD3g5WdH6fp2ogjk5DWgR75BUUXknPys8CPRJukwTyCV3fUTLVg2m9Wdo8TzE74YoP9aYP1aZ39aYPzV5D7ywzo7SA+Gwc1NvTQIyg6kRM7/wiQNJgn6vRPrkvvVT4Vlt+/ee27yQabE3ofYf4ZgD/64Y8R5p9e5s+zjYGHxOdjoNqCHLjQgq0pa+UeApP1q8N49fe1r7+81o+W3WvGPBytX7ND7/zQ717wgx/8GIL+cIA/TZO97Q2Tw42KNX7ageQs/CMT9wAYr9MN4pa7ql/dqXiClH2NYu5/h5WqKPu2xp889A9e+u8e+q862vFAg+Yr/OAgdcnA3bHxs2ZuxsjeB0bxK31YeWfVi9sVvUjZXV753TtVIyN4q5y0a6SdmakXavLRBMFxHzd1G/u4nyLXspNW7qGRs7/K2gWGceofrss6qqZuYR4hZV+LKx5+U/O6D2scw3vnCCkF+XieuD3W4OrGy+7invaTZSvMLTP7YJWV1jN2gCGs6nGttKNy6gtMD1re+u/KJwP4tReEdQkhOkdKyckHUnJ6mhTtr9e34sb7iDI1HDMy9/SMHS2UAgaxyt7ahfaqqVsVvYKye+KKztYaSTd2uQeneozXPMat9GCVHdfnvqwZ+0/twBBJoYY3DYwdLZxcgRLAIFbRW7vQUfX8TkVfc1lbU9lXSFkrimkTYtpFmI5LtQsw34grHrReH5FQLBo4oYVSGiihBreAIazyh1pZV/V067XR25hHN8s7W8rbmi/VUv7gBqb9H5j2f1V8e7d6YKhheZEe1kKpFTChBuMqcAt4ilP1Y5d6axe6ql91VE22VY61VY22VY0+qB5rrx7vqJ7orJ78vnZ6uF45R3VroC0dnLyClfRNYASvGcaph3DKAexSP1bej5UN4OSD+KWn+OURvHK0Tj1er5UQTPNUrwqM6qCk7vPmEjxepxvH6ybq9BN1hmf1+qmG1RcEo4RoniZaX5Mcs2TXAsW7SAupwJgWSmjhpBZKasCECtxS0GPAZP3a83qTpN78kmCbJtpnSM55ikdG9S+WPvm6ih7TgJtaKK6HU3o4VfJciiquAjcV9CggabC8IthniK45sldKKVWSmh7TQnEDI2Vk7ppYe2bWvoV9pT0jK73K2NbCSQ0UV9E3gR8J9lmSR0oOLFEjpTKCEkbm7mWBHrmash4k50Hy3tLMuZuyTt6RjXNgurxCDyWAWbJbSgks09bV4JaekTKz9xzcIzeS8wsKIdFpWHwWFp+Hxech0WlAWPCheTf/2M7NWNhpI3MbmKN45dSQsjGqhZJrrLSNe1gihcVw8/lGy7toy0W05X205WJd/DYkOvULCp6mEyf/0MrZM7F2gDmyR04NKhtj/4N5/w9fRG+8j9642Gh5FxGfB4VFH5p38Y/tvM+bZ0kl2wrahgaMGxjbFs6Bk5/1ovmA6DTcfB5pfhtpPg+Jzz57ztq5GTN7b42xbYATwAzRtUD2LVHDqsartNI2zqGrqcT7hQW/qOgXFnyCvAc5cfGPbZyMmZVeu0xrhb4JzBKc8yS3nBxYpkY09E09nDIx0zbugYN/5EKyLuSkNPnHDl7Gytk3MXdX4ZQOjK/QYyraOjBLtM8RXVKSb5ESUtGiWjBugFMmVtrK3bfxMnbeoY2XsXEPSo/M3DXAKS0Y1zRGlbT1ZUrov0sjz4FNkCyiAAAAAElFTkSuQmCC",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#631385",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#561173",
+                "foreground": "#fff",
+                "population": 7.91,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#561173",
+                "foreground": "#fff",
+                "population": 7.91,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#621583",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#b03fe0",
+                "foreground": "#fff",
+                "population": 1.22,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#750a8e",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#d149f1",
+                "foreground": "#fff",
+                "population": 2.81,
+                "title": "#fff"
+              }
+            }
+          },
+          "mimeType": "image/png",
+          "originalFilename": "0a1de6f3-5cdb-41cf-98c8-406e072eacb0.png",
+          "path": "images/zrvdkcjy/production/b9cf45b2475a1e60557da051571e6f3878a23384-1024x1536.png",
+          "sha1hash": "b9cf45b2475a1e60557da051571e6f3878a23384",
+          "size": 3165814,
+          "uploadId": "SA8h9fDKLgkW97tZp1g40wEGaBVGNZlP",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/b9cf45b2475a1e60557da051571e6f3878a23384-1024x1536.png"
+        }
+      },
+      "name": "اکانت اشتراکی ChatGPT Pro",
+      "slug": "chatgpt-pro"
+    },
+    {
+      "_id": "c0e70119-cf99-4ef9-9896-e46c080174a3",
+      "_key": "847d788c3d5a",
+      "badges": [
+        "Google Ai Pro",
+        "تولید محتوا و برنامه نویسی",
+        "پشتیبانی تلگرام",
+        "تحویل ۱ -۱۲ ساعت"
+      ],
+      "category": " Gemini (Google)",
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی Google Gemini",
+        "asset": {
+          "_createdAt": "2026-02-16T17:56:05Z",
+          "_id": "image-ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaD0Nr",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:56:05Z",
+          "assetId": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dH5#DdR_RXR-tWa]RkWXW2a*oroMRZa%tJoeWsbIoHoI",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQDBgIFB//EACIQAAICAgEEAwEAAAAAAAAAAAECAAMEEQUSEzFBBhRRgf/EABcBAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAeEQACAwABBQAAAAAAAAAAAAABEQACAxIFEyEyof/aAAwDAQACEQMRAD8A4LVnUY7qrKXY+hNycpK2qrvxrKjYAVJ9gypcf3H5ertMgsB2O54lz+Vclm8n9W/JTFrWhVQithsn+SsPVdqbHMIVg3qQm/kwdeliBCLNf1HcJQsRkCVKoccO2/BjOLjqjhiSdfpkamTo0T1xz5cl5mVaBx8WQioY6hC+5CFP/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#263542",
+                "foreground": "#fff",
+                "population": 0.06,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#d9aea8",
+                "foreground": "#000",
+                "population": 1.91,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7a73f4",
+                "foreground": "#fff",
+                "population": 0.08,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3e5776",
+                "foreground": "#fff",
+                "population": 0.26,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3a29cc",
+                "foreground": "#fff",
+                "population": 8.56,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "DhUGHQSAt213yXmYiIeXiCyGEA7W"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "ChatGPT Image Nov 15, 2025, 09_37_06 PM_19_11zon.webp",
+          "path": "images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp",
+          "sha1hash": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "size": 20488,
+          "uploadId": "PC1pm6OX2picQoAmmyr7jGBN2tkz0kSJ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp"
+        },
+        "caption": "خرید اکانت Gemini Pro تحویل ۱ الی ۱۲ ساعت|ضمانت تعویض اکانت|"
+      },
+      "name": " اکانت اختصاصی    Gemini(Google AI Pro)",
+      "slug": "google-ai-gemini"
+    },
+    {
+      "_id": "a6f6941e-8aa9-4dd4-b086-3f1a537c8cea",
+      "_key": "373ad879a049",
+      "badges": [
+        "تحویل ۱ -۱۲ ساعت ",
+        "Original",
+        "Ultra Gemini",
+        "پشتیبانی تلگرام"
+      ],
+      "category": " Gemini (Google)",
+      "image": {
+        "_type": "image",
+        "alt": "لوگو Google Gemini Ultra",
+        "asset": {
+          "_createdAt": "2026-02-16T17:56:05Z",
+          "_id": "image-ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaD0Nr",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:56:05Z",
+          "assetId": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dH5#DdR_RXR-tWa]RkWXW2a*oroMRZa%tJoeWsbIoHoI",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQDBgIFB//EACIQAAICAgEEAwEAAAAAAAAAAAECAAMEEQUSEzFBBhRRgf/EABcBAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAeEQACAwABBQAAAAAAAAAAAAABEQACAxIFEyEyof/aAAwDAQACEQMRAD8A4LVnUY7qrKXY+hNycpK2qrvxrKjYAVJ9gypcf3H5ertMgsB2O54lz+Vclm8n9W/JTFrWhVQithsn+SsPVdqbHMIVg3qQm/kwdeliBCLNf1HcJQsRkCVKoccO2/BjOLjqjhiSdfpkamTo0T1xz5cl5mVaBx8WQioY6hC+5CFP/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#263542",
+                "foreground": "#fff",
+                "population": 0.06,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#d9aea8",
+                "foreground": "#000",
+                "population": 1.91,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7a73f4",
+                "foreground": "#fff",
+                "population": 0.08,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3e5776",
+                "foreground": "#fff",
+                "population": 0.26,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3a29cc",
+                "foreground": "#fff",
+                "population": 8.56,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "DhUGHQSAt213yXmYiIeXiCyGEA7W"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "ChatGPT Image Nov 15, 2025, 09_37_06 PM_19_11zon.webp",
+          "path": "images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp",
+          "sha1hash": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "size": 20488,
+          "uploadId": "PC1pm6OX2picQoAmmyr7jGBN2tkz0kSJ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp"
+        },
+        "caption": "پلن  پریمیوم گوگل برای هوش مصنوعی - Gemini Ultra"
+      },
+      "name": "اکانت Gemini Ultra  (Google)",
+      "slug": "gemini-ultra"
+    },
+    {
+      "_id": "bdc9d6e4-f6b1-4ea7-9ff9-f0f1d43f8c4b",
+      "_key": "08ef7293976b",
+      "badges": [
+        "Original",
+        "تحویل۱-۱۲ ساعت",
+        "ضمانت تعویض اکانت",
+        "پشتیبانی فعال تلگرام"
+      ],
+      "category": "Grok",
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی هوش مصنوعی Grok",
+        "asset": {
+          "_createdAt": "2026-02-16T18:00:41Z",
+          "_id": "image-83a5409b64b3be93f3b589555545e3e65f356248-1024x1536-webp",
+          "_rev": "KFKR0hPScPtkXdri1P2GNP",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:00:41Z",
+          "assetId": "83a5409b64b3be93f3b589555545e3e65f356248",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "d7Ado=DiELog?HRPNGjt?wozRPofb_kC%2ofIUj[xuay",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQDBgcCBf/EACQQAAICAQMDBQEAAAAAAAAAAAECAwQABRESBhMxFCEjQVFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAMB/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AKba1yGhZr10haexM2yqDtnty6t6SGCSxVAhlbt9xHDAN+Zm2tSmPqOnN3Vh4HkHbwDj13UIZoIq9WzCflWRkVixdt/r8ylvqOczjSmcb+x9sMQE26r/AAYZqarWdGjvMDKgOT0OnK9SVZUhHIeDtjlecqRjvqm4+MDk8h9YZE1ht8MD/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#344144",
+                "foreground": "#fff",
+                "population": 7.17,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#040c0c",
+                "foreground": "#fff",
+                "population": 0.67,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#344144",
+                "foreground": "#fff",
+                "population": 7.17,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#a4acac",
+                "foreground": "#000",
+                "population": 0.02,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#9bdddd",
+                "foreground": "#000",
+                "population": 0,
+                "title": "#000"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#6c7c81",
+                "foreground": "#fff",
+                "population": 6.26,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3fbfbf",
+                "foreground": "#000",
+                "population": 0,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "lucFBQCTuGiI+VioeIaoiAh9geAn"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "5bd87c87-58d2-4ba7-a5f9-d0dbbef30985_6_11zon.webp",
+          "path": "images/zrvdkcjy/production/83a5409b64b3be93f3b589555545e3e65f356248-1024x1536.webp",
+          "sha1hash": "83a5409b64b3be93f3b589555545e3e65f356248",
+          "size": 38086,
+          "uploadId": "LCyvitPgd7oFzgMcSEsc4mA0yGa19lLQ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/83a5409b64b3be93f3b589555545e3e65f356248-1024x1536.webp"
+        },
+        "caption": "اکانت Grok (xAI) - دسترسی داخل x + تحویل ۱ تا ۱۲ ساعت"
+      },
+      "name": "اکانت اشتراکی Grok",
+      "slug": "grok-shared"
+    },
+    {
+      "_id": "18751111-bba5-4402-8f00-db96c14d1cd1",
+      "_key": "b81237d1d2f7",
+      "badges": [
+        "Claude Pro",
+        "اکانت یک ماهه پریمیوم",
+        "تولید محتوا ",
+        "برنامه نویسی",
+        "تحلیل و مقاله",
+        "تحویل ۱ الی ۱۲ ساعت"
+      ],
+      "category": "ابزار های بهره وری و تحقیق با هوش مصنوعی",
+      "image": {
+        "_type": "image",
+        "alt": "تصویر لوگوی Claude Pro",
+        "asset": {
+          "_createdAt": "2026-02-16T18:20:53Z",
+          "_id": "image-c811302a503427e9a622277110c104fbdf82f396-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaIXkZ",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:20:53Z",
+          "assetId": "c811302a503427e9a622277110c104fbdf82f396",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dOJ}YP5.R6S3^iNca1WW|@w_OXoK+bo1xusnIoWWxtj@",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAYCBQMEB//EACQQAAEEAQMEAwEAAAAAAAAAAAIAAQMEBQYREiEiMUETFBVR/8QAFwEBAQEBAAAAAAAAAAAAAAAABgUDBP/EAB8RAAEEAgIDAAAAAAAAAAAAAAEAAgMSBSEREzEyYf/aAAwDAQACEQMRAD8AT/24atuvUjiOxamLiEYeU0ZeS1goq0uUx8kUMxMPyCTEwu/p1yGrk5MfrKleBw5Qly732ZP+tNbxZvEx0aIxgxTDLLvJyd3/AIyJux0Ja2w2fqWuyMwe4NPAHjSZnmb0/RCp/tdo9fTIR/oSG6Ry0/BfPlJ5W7j9MVKU4zMLOQ9W3U6kxC7bKwKwTirMk03qHaU5kEXNq7WYpNnQq8pXd0LDrXRZf//Z",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2c343c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#8e3004",
+                "foreground": "#fff",
+                "population": 7.3,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#e16704",
+                "foreground": "#fff",
+                "population": 8.03,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#b39a86",
+                "foreground": "#000",
+                "population": 0.02,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#f0d5b0",
+                "foreground": "#000",
+                "population": 4.72,
+                "title": "#000"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#a27052",
+                "foreground": "#fff",
+                "population": 0.08,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#e16704",
+                "foreground": "#fff",
+                "population": 8.03,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "FLsGJQZB5212+3l4yHK7uKNoT1z3"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "6da00faf-bfa9-40d6-979b-f25734a7f1b8_10_11zon.webp",
+          "path": "images/zrvdkcjy/production/c811302a503427e9a622277110c104fbdf82f396-1024x1536.webp",
+          "sha1hash": "c811302a503427e9a622277110c104fbdf82f396",
+          "size": 30844,
+          "uploadId": "OeUDVFbB1vSWoMERx82VmzMe7l0oB92q",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/c811302a503427e9a622277110c104fbdf82f396-1024x1536.webp"
+        },
+        "caption": "خرید اکانت Claude Pro | قانونی | ضمانت تعویض | پشتیبانی در دسترس"
+      },
+      "name": "اکانت Claude pro ",
+      "slug": "claude-pro"
+    },
+    {
+      "_id": "c00e09b4-8b81-403c-82d3-35dad9d16b03",
+      "_key": "b0ce13b0f16b",
+      "badges": [
+        "Cursor",
+        "Orginal",
+        "تحویل نهایتا تا ۱ ساعت",
+        "ضمانت تعویض",
+        "پشتیبانی فعال در تلگرام"
+      ],
+      "category": "Cursor",
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی Cursor",
+        "asset": {
+          "_createdAt": "2026-02-16T18:14:17Z",
+          "_id": "image-b5c3f5ef5aa7716db5af9166f3c3994aae68d302-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaHjNA",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:14:17Z",
+          "assetId": "b5c3f5ef5aa7716db5af9166f3c3994aae68d302",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dA0dkLaZaEkDkcabaHj]f;fnf4fQadj_kGayaFj]kaax",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAIDBAUGCP/EACAQAAICAgICAwAAAAAAAAAAAAECAAMEERIhBRQxMkH/xAAZAQACAwEAAAAAAAAAAAAAAAADBAECBQb/xAAdEQACAgIDAQAAAAAAAAAAAAAAAQIRAxIEITFB/9oADAMBAAIRAxEAPwDz+uSi2qgUsx/Js5mJbh00WZFBSu76sDucoCvt7azhrsGbFnkGvx6aHyg61nar38ztOPyYuMtnT+GNkxU014WG6OoSNn2dwjLkrAlH1VsPYktWJXUeQA3FRyI5sJEVjHGu67DNy8sYnuEhLGEncrqf/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#042b94",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#04247c",
+                "foreground": "#fff",
+                "population": 15.06,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#04247c",
+                "foreground": "#fff",
+                "population": 15.06,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#023196",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#588cfc",
+                "foreground": "#fff",
+                "population": 0.01,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0b448d",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#1372eb",
+                "foreground": "#fff",
+                "population": 1.1,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "zcQFFQIwyVyF62qHqYKbmL+k4GkJ"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "7094043a-3501-4d8a-9c83-5c0077a51961_11_11zon.webp",
+          "path": "images/zrvdkcjy/production/b5c3f5ef5aa7716db5af9166f3c3994aae68d302-1024x1536.webp",
+          "sha1hash": "b5c3f5ef5aa7716db5af9166f3c3994aae68d302",
+          "size": 19624,
+          "uploadId": "JwB8xm9esRCv7d1V7COVApZeam91JzZZ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/b5c3f5ef5aa7716db5af9166f3c3994aae68d302-1024x1536.webp"
+        },
+        "caption": "خرید اکانت Cursor | پشتیبانی تلگرام فعال |‌ ضمانت تعویض | تحویل ۱-۱۲ است"
+      },
+      "name": "اکانت Cursor Pro",
+      "slug": "cursor-ai"
+    }
+  ],
+  "bestsellingCourses": [
+    {
+      "_id": "5a2404aa-6a25-4735-a626-0ae382d81167",
+      "_key": "b2f3956eedfe",
+      "category": "programming",
+      "discountPercentage": null,
+      "duration": "4",
+      "featuredImage": {
+        "_type": "image",
+        "alt": "openai codex",
+        "asset": {
+          "_createdAt": "2025-11-26T08:02:49Z",
+          "_id": "image-be989f6d03d4e5e5cd1a0671a396b00b46bc8a3b-1024x538-webp",
+          "_rev": "clNGIHR7teKIrj4L6CuHKm",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2025-11-26T08:02:49Z",
+          "assetId": "be989f6d03d4e5e5cd1a0671a396b00b46bc8a3b",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "M13Ihvt:9tV?xtxcf.bFnhaeN3W?x[ofM{",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 1.903345724907063,
+              "height": 538,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgf/xAAfEAEAAgEDBQAAAAAAAAAAAAABAAIDBBESISIxQVH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAgT/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQISIf/aAAwDAQACEQMRAD8A4DjyLse2Y1g0TuEfjFc6SFyarTYcPhC13lCO3mELJR//2Q==",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#1c2437",
+                "foreground": "#fff",
+                "population": 12.51,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0c2434",
+                "foreground": "#fff",
+                "population": 1.01,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#1c2437",
+                "foreground": "#fff",
+                "population": 12.51,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#abaab0",
+                "foreground": "#000",
+                "population": 0.31,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#93c4e6",
+                "foreground": "#000",
+                "population": 0,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7b848a",
+                "foreground": "#fff",
+                "population": 0.03,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2f8fcf",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              }
+            }
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "Codex-1024x538.webp",
+          "path": "images/zrvdkcjy/production/be989f6d03d4e5e5cd1a0671a396b00b46bc8a3b-1024x538.webp",
+          "sha1hash": "be989f6d03d4e5e5cd1a0671a396b00b46bc8a3b",
+          "size": 7752,
+          "uploadId": "MMO5IbA3sSqTZZTt7TTLapC6rh4Zq3tN",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/be989f6d03d4e5e5cd1a0671a396b00b46bc8a3b-1024x538.webp"
+        }
+      },
+      "instructor": {
+        "_id": "b832404d-1f29-4ab6-8390-c18e9390efe3",
+        "image": {
+          "_type": "image",
+          "alt": "erfan elmtalab",
+          "asset": {
+            "_ref": "image-e52eb33035d8d729ff06b6e7ee230aea28961112-720x1280-jpg",
+            "_type": "reference"
+          }
+        },
+        "name": "erfan elmtalab",
+        "title": "programmer"
+      },
+      "level": "beginner",
+      "longDescription": null,
+      "originalPrice": 35000000,
+      "price": 1997000,
+      "rating": 4.2,
+      "reviewCount": 124,
+      "shortDescription": null,
+      "slug": "codex-web-development",
+      "title": "طراحی سایت با codex ",
+      "totalSessions": 3,
+      "totalStudents": null
+    }
+  ],
+  "collectionsBanner": {
+    "ctaLink": "/collections/social-media",
+    "ctaText": "مشاهده محصولات",
+    "featuredCollection": {
+      "_id": "ad58af2b-a352-4751-94a5-21598de95bc6",
+      "slug": "ai-chatbot",
+      "title": "چت بات های هوش مصنوعی "
+    },
+    "image": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-2f468509c772225825a69c1643f7994ee1b8a9df-800x533-jpg",
+        "_type": "reference"
+      }
+    },
+    "subtitle": "کالکشن تمامی محصولات سوشال مدیا که نیاز  دارید",
+    "title": "محصولات سوشال مدیا"
+  },
+  "discountedProducts": null,
+  "editorialBanners": [
+    {
+      "_key": "3ff6cb00cd58",
+      "backgroundImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-442638e107e9186d803518a5fef1e577dd0ce23a-1520x760-jpg",
+          "_type": "reference"
+        }
+      },
+      "ctaLink": "/collections/ai-chatbot",
+      "ctaText": "مشاهده",
+      "id": "45",
+      "order": 100,
+      "subtitle": "تمام چت بات هایی که نیاز دارید",
+      "title": "AI Chatbots"
+    },
+    {
+      "_key": "e76c55adfa0a",
+      "backgroundImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b368bae2cd16be36630bed947fab17484ca8da08-1700x850-jpg",
+          "_type": "reference"
+        }
+      },
+      "ctaLink": "/collections/image-video-generation",
+      "ctaText": "مشاهده",
+      "id": "44",
+      "order": 0,
+      "subtitle": "هوش مصنوعی هایی که برای تولید عکس و فیلم نیاز دارید ",
+      "title": "های تولید محتوا AI"
+    }
+  ],
+  "educationalProducts": null,
+  "featuredBlogs": [
+    {
+      "_id": "f390cebd-72f0-4619-859b-4c1859e63cdb",
+      "_key": "2d15e7808667",
+      "category": null,
+      "coverImage": {
+        "_type": "image",
+        "alt": "چت جی پی تی 5 چیست؟",
+        "asset": {
+          "_ref": "image-ff119c4a9557026203baa38c5b04df967352e222-1200x720-webp",
+          "_type": "reference"
+        }
+      },
+      "excerpt": [
+        {
+          "_key": "e58e8dcac0e6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "d7e1849f05810",
+              "_type": "span",
+              "marks": [],
+              "text": "چت جی پی تی 5 یک هوش شناختی برای استدلال و اقدام است. این مدل که در ۷ آگوست ۲۰۲۵ منتشر شد، با وجود قابلیت‌های انقلابی مانند عاملیت مستقل (AI Agents) و استدلال در سطح دکترا، به دلیل نقص فنی در سیستم مسیریاب خود، عرضه‌ای پرحاشیه و جنجالی داشت. قدرت اصلی آن نه در پاسخ به سوالات ساده، بلکه در تبدیل شدن به یک شریک شناختی برای ساخت ابزار و حل مسائل پیچیده نهفته است"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "publishedAt": "2025-10-10T15:06:00.000Z",
+      "readTime": null,
+      "slug": "gpt5-capabilities",
+      "title": "chatgpt 5 چیست؟"
+    },
+    {
+      "_id": "d71a8087-4770-4cd7-8380-89b29041422b",
+      "_key": "e8a1a30b920f",
+      "category": null,
+      "coverImage": {
+        "_type": "image",
+        "alt": "هوش مصنوعی جمنای چیست",
+        "asset": {
+          "_ref": "image-262de71b0426af41eedab9ea8cc2015c5a7807f2-1200x720-webp",
+          "_type": "reference"
+        }
+      },
+      "excerpt": [
+        {
+          "_key": "42f3f4729cdf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "29298d3e7437",
+              "_type": "span",
+              "marks": [],
+              "text": "هوش مصنوعی جمینی، جدیدترین مدل زبان بزرگ و چندوجهی گوگل است که توسط تیم دیپ‌مایند توسعه یافته و می‌تواند متن، کد، تصویر، صدا و ویدیو را به طور یکپارچه درک کند. این مدل در سه نسخه اولترا (برای کارهای بسیار پیچیده)، پرو (برای کاربردهای عمومی) و نانو (برای اجرا روی موبایل) عرضه شده است. جمینی با قابلیت‌های استدلال پیشرفته و کدنویسی، در حال ادغام در تمام محصولات گوگل از جمله جستجو، اندروید و ورکرسپیس است تا تجربه‌ای هوشمندتر و یکپارچه‌تر فراهم کند، هرچند همچنان با چالش‌هایی مانند حریم خصوصی و سوگیری الگوریتمی روبروست."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "publishedAt": "2025-10-11T15:06:00.000Z",
+      "readTime": null,
+      "slug": "gemini-review-capabilities",
+      "title": "gemini چیست؟"
+    },
+    {
+      "_id": "0487bb1b-f5bb-4c6c-93ce-8de08c6d8b94",
+      "_key": "ff127fb2c482",
+      "category": null,
+      "coverImage": {
+        "_type": "image",
+        "alt": "نوشتن مقاله با chatgpt",
+        "asset": {
+          "_ref": "image-76ad40a87828679e993ede8d5a8b4e9a160b3acc-1200x720-webp",
+          "_type": "reference"
+        }
+      },
+      "excerpt": [
+        {
+          "_key": "46f3f632073c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "39db36aade090",
+              "_type": "span",
+              "marks": [],
+              "text": "این مقاله یک راهنمای جامع برای استفاده از چت جی‌پی‌تی (ChatGPT) در فرآیند مقاله نویسی است، با تأکید بر اینکه هوش مصنوعی یک ابزار همکاری است نه جایگزین نویسنده. مراحل نگارش شامل ایده‌پردازی، طرح‌ریزی دقیق، استفاده از پرامپت‌های مؤثر برای تولید پیش‌نویس فارسی، و سپس بازبینی و اعتبار سنجی انسانی داده‌ها و لحن محتوا است. همچنین، مقاله بر بهینه‌سازی محتوا برای سئو (SEO) و ملاحظات اخلاقی در نگارش آکادمیک تأکید دارد، و اشاره می‌کند که آینده نگارش در گرو تعامل انسان و AI برای دستیابی به سرعت و تخصص است."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "publishedAt": "2025-09-09T15:06:00.000Z",
+      "readTime": null,
+      "slug": "write-article-with-chatgpt",
+      "title": "نوشتن مقاله با chatgpt"
+    },
+    {
+      "_id": "a4d1eb47-b6be-47c6-a45f-d2f12ac7ab28",
+      "_key": "492c6f1b0567",
+      "category": null,
+      "coverImage": {
+        "_type": "image",
+        "alt": "هوش مصنوعی چت جی پی تی چیست؟",
+        "asset": {
+          "_ref": "image-c43615a522378d5c111b0f64b511313475fe9b62-1200x720-webp",
+          "_type": "reference"
+        }
+      },
+      "excerpt": [
+        {
+          "_key": "1092015a3c90",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "69e67d3291950",
+              "_type": "span",
+              "marks": [],
+              "text": "ChatGPT یک چت‌بات هوش مصنوعی پیشرفته است که توسط شرکت OpenAI در نوامبر ۲۰۲۲ منتشر شد و به سرعت به شهرت جهانی رسید. این برنامه بر پایه مدل‌های زبانی قدرتمند سری GPT ساخته شده و می‌تواند متن، کد و تصویر تولید کند، به سوالات پاسخ دهد و مکالمه‌ای شبه‌انسانی داشته باشد. این سرویس در دو نسخه رایگان (با مدل GPT-4o و محدودیت) و پولی (مانند ChatGPT Plus با دسترسی به مدل‌های پیشرفته‌تر مانند GPT-5 و قابلیت‌های انحصاری) ارائه می‌شود. با وجود توانایی‌های گسترده، ChatGPT با چالش‌هایی مانند تولید اطلاعات نادرست (توهم) و سوگیری‌های الگوریتمی نیز روبروست و تأثیر عمیقی بر آینده مشاغل و رقابت در دنیای فناوری داشته است."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "publishedAt": "2025-10-11T15:06:00.000Z",
+      "readTime": null,
+      "slug": "chatgpt-review",
+      "title": "chatgpt چیست؟"
+    }
+  ],
+  "heroSlides": [
+    {
+      "_key": "e8b99f40ea9e",
+      "buttonHref": null,
+      "buttonText": null,
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_createdAt": "2026-02-16T17:03:55Z",
+          "_id": "image-c743d70b5fd2b82be0792e14a3030c4ed2c46f8c-1536x1024-webp",
+          "_rev": "iZq5lEpx3tChOalgZmKcEf",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:03:55Z",
+          "assetId": "c743d70b5fd2b82be0792e14a3030c4ed2c46f8c",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "VA2$zhtpS[NVM[SkWroMs8ngV-W7jLn:oPoZk7W;W?bK",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 1.5,
+              "height": 1024,
+              "width": 1536
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgf/xAAeEAACAgIDAQEAAAAAAAAAAAABAgADBBEFMUESYf/EABcBAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAdEQABBAIDAAAAAAAAAAAAAAABAAIDERIhMUFR/9oADAMBAAIRAxEAPwDhFGFQ/En7oK2k7Sw9H8k1cdVBJGtRzD5K2rHCEB0AOgfJKuvdt+TRuljoDHY79U9jTjzuytvaFYgdQiLOdwixlRg1f//Z",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#622f3e",
+                "foreground": "#fff",
+                "population": 1.63,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#072369",
+                "foreground": "#fff",
+                "population": 9.94,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#072369",
+                "foreground": "#fff",
+                "population": 9.94,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0c678c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#90d8f5",
+                "foreground": "#000",
+                "population": 0.11,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#9d594a",
+                "foreground": "#fff",
+                "population": 0.73,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3517c1",
+                "foreground": "#fff",
+                "population": 3.59,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "ytUFFYJvE3VoiWdQmXl3ZZSED1Cn"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "ChatGPT Image Nov 15, 2025, 03_46_33 PM_11zon.webp",
+          "path": "images/zrvdkcjy/production/c743d70b5fd2b82be0792e14a3030c4ed2c46f8c-1536x1024.webp",
+          "sha1hash": "c743d70b5fd2b82be0792e14a3030c4ed2c46f8c",
+          "size": 98940,
+          "uploadId": "WdONVF2Dtb3ETmeRo9c8G7heFgcuroG5",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/c743d70b5fd2b82be0792e14a3030c4ed2c46f8c-1536x1024.webp"
+        }
+      },
+      "subtitle": null,
+      "title": null
+    }
+  ],
+  "magazinePosts": null,
+  "seo": {
+    "canonicalUrl": null,
+    "metaDescription": "برای خرید اکانت chatgpt pro، خرید اکانت chatgpt plus و خرید gpt، بهترین نسخه چت جی پی تی را با گارانتی تعویض از ما بخواهید. استفاده نامحدود و ضمانت کامل.",
+    "metaTitle": "خرید اکانت ChatGPT Plus و Pro بینهایت با ضمانت تعویض ‏| SharifGPT",
+    "openGraphDescription": null,
+    "openGraphImage": null,
+    "openGraphTitle": null,
+    "robotsMeta": "index,follow",
+    "structuredData": null
+  },
+  "seoContent": "# خرید اکانت ChatGPT با ضمانت تعویض\n\nدر دنیای امروز که سرعت تحولات فناوری سرسام‌آور است، هوش مصنوعی از یک مفهوم تخیلی به ابزاری حیاتی برای پیشرفت و افزایش بهره‌وری تبدیل شده است.  \nدر قلب این انقلاب، **ChatGPT** قرار دارد؛ مدلی شگفت‌انگیز که توانایی درک، تحلیل و تولید زبان انسان را به سطحی بی‌سابقه رسانده است.\n\nاز **دانشجویان** و **برنامه‌نویسان** گرفته تا **تولیدکنندگان محتوا** و **مدیران کسب‌وکار**، همگی می‌توانند از قدرت این ابزار بهره‌مند شوند.  \nاما برای کاربران ایران، محدودیت نسخه رایگان، مشکلات دسترسی و مانع پرداخت ارزی، استفاده حرفه‌ای را دشوار کرده است.\n\nدر **شریف‌جی‌پی‌تی** ما راهکاری **سریع، امن، مطمئن و همراه با ضمانت کامل** ارائه کرده‌ایم.\n\n---\n\n## ⭐ تجربه حرفه‌ای ChatGPT با تحویل فوری و ضمانت تعویض\n\nدر شریف‌جی‌پی‌تی:\n\n- اکانت ChatGPT Plus و مدل‌های پیشرفته‌تر را **فوری** دریافت می‌کنید.\n    \n- اکانت‌ها **اورجینال و اختصاصی** هستند.\n    \n- **گارانتی تعویض** و **پشتیبانی ۲۴ ساعته واقعی** ارائه می‌شود.\n    \n- با **افزونه اختصاصی** ما، بدون VPN و بدون دغدغه مسدود شدن، همیشه به ChatGPT وصل خواهید شد.\n    \n\n---\n\n# خرید اشتراک چت جی پی تی پرمیوم\n\nنسخه رایگان خوب است، اما برای استفاده حرفه‌ای محدودیت‌های جدی دارد:\n\n- سرعت بسیار پایین در ساعات اوج مصرف\n    \n- پیام‌های مکرر _ChatGPT is at capacity_\n    \n- عدم دسترسی به مدل‌های جدید مثل **GPT-4o**\n    \n- نبود امکاناتی مثل آپلود فایل، وب‌گردی، ساخت GPT سفارشی و...\n    \n\nبرای هر کار حرفه‌ای—از تولید محتوا و مقاله‌نویسی تا تحلیل داده و برنامه‌نویسی—نسخه پرمیوم ضروری است.\n\n---\n\n# معرفی پلن‌های خرید اکانت ChatGPT\n\nانتخاب پلن مناسب اولین گام برای تجربه حرفه‌ای است.  \nدر شریف‌جی‌پی‌تی سه سطح اشتراک ارائه می‌شود:\n\n---\n\n## 🔵 اکانت ChatGPT Plus (4o)\n\n**بهترین انتخاب اقتصادی و پرفروش‌ترین پلن**\n\n- مبتنی بر مدل **GPT-4o (Omni)**\n    \n- سرعت بسیار بالا\n    \n- قابلیت‌های چندوجهی: متن، تصویر، صدا\n    \n- دسترسی به DALL-E 3، وب‌گردی، تحلیل فایل‌های معمولی\n    \n- مناسب دانشجویان، فریلنسرها، نویسندگان و کاربران عمومی\n    \n- ارزان‌ترین انتخاب برای ورود حرفه‌ای\n    \n\n---\n\n## 🔵 اکانت ChatGPT 4.5\n\n**انتخاب میانی برای حرفه‌ای‌هایی که قدرت بیشتر می‌خواهند**\n\n- نسخه تقویت‌شده و سریع‌تر از GPT-4o\n    \n- مناسب برنامه‌نویسان، تحلیل‌گران، فریلنسرهای حرفه‌ای\n    \n- مناسب برای تحلیل داده‌های پیچیده و فایل‌های بزرگ\n    \n- محدودیت‌های استفاده بسیار بالاتر\n    \n- انتخابی ایده‌آل برای افرادی که بهره‌وری برایشان اهمیت دارد\n    \n\n---\n\n## 🟣 اکانت ChatGPT 5\n\n**پرچمدار و قدرتمندترین پلن**\n\n- بالاترین سطح مدل GPT-5\n    \n- مناسب شرکت‌ها، محققان، دانشمندان داده و تیم‌های بزرگ\n    \n- قدرت استدلال و خلاقیت بسیار بالا\n    \n- بهترین گزینه برای پروژه‌های سنگین و تحلیل‌های کلان\n    \n- بالاترین سطح امکانات + بیشترین محدودیت مصرف\n    \n\n---\n\n# 💰 هزینه اکانت چت جی پی تی\n\n- **اکانت ChatGPT Plus (یک ماهه):** 20 دلار\n  \n- **اکانت ChatGPT Pro (دسترسی مدل O3 Pro):** 200 دلار\n    \n\n🎁 _همه پلن‌ها همراه با یک ماه اشتراک رایگان Grok ارائه می‌شوند._\n\nسرمایه‌گذاری روی ChatGPT صرفاً یک هزینه نیست—بلکه چندین برابر با صرفه‌جویی زمان و افزایش کیفیت خروجی برمی‌گردد.\n\n---\n\n# چرا شریف‌جی‌پی‌تی بهترین انتخاب است؟\n\n## 🟣 ۱. پشتیبانی واقعی ۲۴ ساعته\n\nتیم پشتیبانی ما واقعی، متخصص و همیشه در دسترس است—نه یک ربات.\n\n## 🟣 ۲. تضمین جایگزینی اکانت\n\nاگر اکانت شما مسدود شود، **فوری** یک اکانت جدید دریافت می‌کنید.\n\n## 🟣 ۳. افزونه اختصاصی برای اتصال بدون VPN\n\nاولین و تنها سرویس ایرانی با اکستنشن اختصاصی برای اتصال مستقیم به ChatGPT بدون نیاز به VPN.\n\n---\n\n# نحوه خرید اکانت ChatGPT در ۳ مرحله\n\n## 1️⃣ انتخاب پلن\n\nپلن مناسب خود را از لیست محصولات بالای صفحه انتخاب کنید.\n\n## 2️⃣ پرداخت امن\n\nپرداخت از طریق درگاه معتبر **زرین‌پال** انجام می‌شود.\n\n## 3️⃣ دسترسی فوری\n\nپس از پرداخت، اطلاعات اکانت شما **همان لحظه** از طریق ربات تلگرام ارسال می‌شود.\n\nو تمام — در کمتر از ۱ دقیقه وارد دنیای ChatGPT Pro می‌شوید.",
+  "socialMediaProducts": [
+    {
+      "_id": "3a4971d4-93f6-4005-9312-9c5573904c19",
+      "_key": "d0cffd472b30",
+      "badges": [
+        "Original",
+        "Spotify",
+        "تحویل ۱-۱۲ ساعت",
+        "پشتیبانی فعال",
+        "ضمانت تعویض",
+        "اکانت اماده"
+      ],
+      "category": "Spotify",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": "لوگو Spotify",
+        "asset": {
+          "_createdAt": "2026-02-16T18:01:48Z",
+          "_id": "image-5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c-1024x1536-webp",
+          "_rev": "iZq5lEpx3tChOalgZmdU44",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:01:48Z",
+          "assetId": "5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dB4r?#ZQHtay%za2M{afYygerwkCJ5btyCkVM2fQyCj[",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGBQf/xAAjEAACAgEEAgIDAAAAAAAAAAABAgMEAAUGERIhMRNBMlFx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAEDBAUG/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECEQMhEhQy/9oADAMBAAIRAxEAPwCROriK7Xp14jPZmbqqg8cZv6x8+lQwSzxwyROwVmhk7dCf3nNK156W7KdoSpGY257P+P8ADljurddTVNOhq6ataAtKrSpGSxc8/WUTjunHgnRrOw58YYiZ/Xn6wwMvZMnQRdfs6g49T21HUlEoQdh6xmpZZeMckuMV9YOyaWbL5vQrIWViDhi8s5ZycMdCUT//2Q==",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#069247",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#057037",
+                "foreground": "#fff",
+                "population": 6.26,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#057037",
+                "foreground": "#fff",
+                "population": 6.26,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#70c189",
+                "foreground": "#000",
+                "population": 0.13,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#95f7b9",
+                "foreground": "#000",
+                "population": 5.84,
+                "title": "#000"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#459963",
+                "foreground": "#fff",
+                "population": 0.27,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#32cc74",
+                "foreground": "#fff",
+                "population": 0.12,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "EygFBQYy12t2+3l4uIO7mAqLsbUI"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "e715680a-6f00-4122-be92-26752a0e9a8b_17_11zon.webp",
+          "path": "images/zrvdkcjy/production/5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c-1024x1536.webp",
+          "sha1hash": "5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c",
+          "size": 22438,
+          "uploadId": "I4qPGGGdj8APxQ0BfINeuqlO4y40MNQK",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/5b28c823b9c41de5e0dfaea987b4fb8cb8100a4c-1024x1536.webp"
+        },
+        "caption": "خرید اکانت spotify | قانونی | ضمانت تعویض| پشیبانی فعال"
+      },
+      "name": "اکانت Spotify",
+      "originalPrice": null,
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "slug": "spotify-premium"
+    },
+    {
+      "_id": "7d19cb0a-8ec9-4139-b909-c8bc09d69ef2",
+      "_key": "ed4e526182a2",
+      "badges": [
+        "Original",
+        "Duolingo",
+        "یادگیری با بازی و سرگرمی",
+        "مناسب مبتدی تا پیشرفته"
+      ],
+      "category": "آموزش زبان",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": " Duolingo  لوگوی",
+        "asset": {
+          "_createdAt": "2026-02-16T18:04:53Z",
+          "_id": "image-119471023b843258e3fe12b0ed87473005535724-1024x1536-webp",
+          "_rev": "KFKR0hPScPtkXdri1P3E51",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:04:53Z",
+          "assetId": "119471023b843258e3fe12b0ed87473005535724",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dB4PGoZjIvbaxBeoNfafd8b[n5j[NzbHx:kVH]f6yAkB",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgL/xAAjEAACAgICAgEFAAAAAAAAAAABAwIEABEFBhIxFCFBUWFx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECAwQhERIxMkH/2gAMAwEAAhEDEQA/AMVa5P492pTrKDrNiYhGJOhlDkmcrwyVu5XjQhM2hQkJ72T98w3NtZDnqthToqYk+cZS9bGWOx9gu9gTVUy0iS1MjIwjLZkf1iy2ditjGPr9OTqxa3XGTXk150dH8jeGLBh8Y/wYZq4E3ZkB/CRuSBbAE4zQ64qq0NioeQ9HH6rZDWOzfIRwZY8iaXXnQrJTN+sM4nYn5H64YbI6P//Z",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#4c444c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#077c45",
+                "foreground": "#fff",
+                "population": 4.2,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#077c45",
+                "foreground": "#fff",
+                "population": 4.2,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#84949c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#cee59b",
+                "foreground": "#000",
+                "population": 1.41,
+                "title": "#000"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#61a64a",
+                "foreground": "#fff",
+                "population": 0.24,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#66e81c",
+                "foreground": "#000",
+                "population": 2.81,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "EigFFQaUuHZ4+lmXiHWZmAiMpNII"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "de7bc91e-e75d-4680-bb98-ba62de5dc6e6_4_11zon.webp",
+          "path": "images/zrvdkcjy/production/119471023b843258e3fe12b0ed87473005535724-1024x1536.webp",
+          "sha1hash": "119471023b843258e3fe12b0ed87473005535724",
+          "size": 24832,
+          "uploadId": "sJRMiMYc6DD5eIcAf1YxJjs70P4jLG5Z",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/119471023b843258e3fe12b0ed87473005535724-1024x1536.webp"
+        },
+        "caption": "اکانت Duolingo | خرید قانونی |‌ ضمانت تعویض "
+      },
+      "name": " اکانت Duolingo",
+      "originalPrice": null,
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "slug": "doulingo-plus-max"
+    },
+    {
+      "_id": "a4877557-a0f9-4b7a-a5ab-190a8d13e179",
+      "_key": "12f276f66309",
+      "badges": [
+        "Original",
+        "تحویل ۱-۱۲ ساعت",
+        "فعال سازی روی اکانت شما",
+        "پشتیبانی تلگرام",
+        "ضمانت تعویض"
+      ],
+      "category": "Telegram (Premium)",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی Telegram Premium",
+        "asset": {
+          "_createdAt": "2026-02-16T18:03:19Z",
+          "_id": "image-c8191968818e56ba67df52445278cf67af7406e7-1024x1536-webp",
+          "_rev": "KFKR0hPScPtkXdri1P31jR",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:03:19Z",
+          "assetId": "c8191968818e56ba67df52445278cf67af7406e7",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dG7;JfQ,IAo~*0VrM_ofX:kXr;f5JVkX%2aeI9j[x]WC",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAQGAwUH/8QAIhAAAgICAQQDAQAAAAAAAAAAAQIAAwQRBQYSIUETFCJh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIG/8QAHBEAAwABBQAAAAAAAAAAAAAAAAERIQIDEjFx/9oADAMBAAIRAxEAPwBXFzaly1o0WsPnQlO2LZRipddQ9dbnSs3jc5kmWMbqFLHu+HQ8OfRlzyPVzcrjYuPdmUWmk/nsGi01nLKUMW9vD1XwcLdp1Ca9snZhCEom242jLYG1QT/YzjcVj4zh60UMPcVquZZn+y2pUKr6GyxB1uERNxMIwIf/2Q==",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0d548b",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0c4b7c",
+                "foreground": "#fff",
+                "population": 0.32,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0c4b7c",
+                "foreground": "#fff",
+                "population": 0.32,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0c658c",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#70caf2",
+                "foreground": "#000",
+                "population": 0.26,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7ca5be",
+                "foreground": "#000",
+                "population": 0.32,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#1ca4d5",
+                "foreground": "#fff",
+                "population": 0.02,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "H1UFBQJBuV+GyXl3qYKbmDl6wEUI"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "9146ed41-4fff-43f1-8aff-4984e18b0cf2_13_11zon.webp",
+          "path": "images/zrvdkcjy/production/c8191968818e56ba67df52445278cf67af7406e7-1024x1536.webp",
+          "sha1hash": "c8191968818e56ba67df52445278cf67af7406e7",
+          "size": 21064,
+          "uploadId": "bcKV18iTiPbUNEWg73ZQlnErcfltfJ5w",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/c8191968818e56ba67df52445278cf67af7406e7-1024x1536.webp"
+        },
+        "caption": "خرید اکانت telegram premium | ضمانت تعویض |‌فعال سازی روی اکانت شما | قانونی |پشتیبانی فعال"
+      },
+      "name": "اکانت Telegram Premium",
+      "originalPrice": null,
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "slug": "telegram-premium"
+    },
+    {
+      "_id": "bdc9d6e4-f6b1-4ea7-9ff9-f0f1d43f8c4b",
+      "_key": "3bef3380e9d0",
+      "badges": [
+        "Original",
+        "تحویل۱-۱۲ ساعت",
+        "ضمانت تعویض اکانت",
+        "پشتیبانی فعال تلگرام"
+      ],
+      "category": "Grok",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی هوش مصنوعی Grok",
+        "asset": {
+          "_createdAt": "2026-02-16T18:00:41Z",
+          "_id": "image-83a5409b64b3be93f3b589555545e3e65f356248-1024x1536-webp",
+          "_rev": "KFKR0hPScPtkXdri1P2GNP",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T18:00:41Z",
+          "assetId": "83a5409b64b3be93f3b589555545e3e65f356248",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "d7Ado=DiELog?HRPNGjt?wozRPofb_kC%2ofIUj[xuay",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQDBgcCBf/EACQQAAICAQMDBQEAAAAAAAAAAAECAwQABRESBhMxFCEjQVFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAMB/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AKba1yGhZr10haexM2yqDtnty6t6SGCSxVAhlbt9xHDAN+Zm2tSmPqOnN3Vh4HkHbwDj13UIZoIq9WzCflWRkVixdt/r8ylvqOczjSmcb+x9sMQE26r/AAYZqarWdGjvMDKgOT0OnK9SVZUhHIeDtjlecqRjvqm4+MDk8h9YZE1ht8MD/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#344144",
+                "foreground": "#fff",
+                "population": 7.17,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#040c0c",
+                "foreground": "#fff",
+                "population": 0.67,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#344144",
+                "foreground": "#fff",
+                "population": 7.17,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#a4acac",
+                "foreground": "#000",
+                "population": 0.02,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#9bdddd",
+                "foreground": "#000",
+                "population": 0,
+                "title": "#000"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#6c7c81",
+                "foreground": "#fff",
+                "population": 6.26,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3fbfbf",
+                "foreground": "#000",
+                "population": 0,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "lucFBQCTuGiI+VioeIaoiAh9geAn"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "5bd87c87-58d2-4ba7-a5f9-d0dbbef30985_6_11zon.webp",
+          "path": "images/zrvdkcjy/production/83a5409b64b3be93f3b589555545e3e65f356248-1024x1536.webp",
+          "sha1hash": "83a5409b64b3be93f3b589555545e3e65f356248",
+          "size": 38086,
+          "uploadId": "LCyvitPgd7oFzgMcSEsc4mA0yGa19lLQ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/83a5409b64b3be93f3b589555545e3e65f356248-1024x1536.webp"
+        },
+        "caption": "اکانت Grok (xAI) - دسترسی داخل x + تحویل ۱ تا ۱۲ ساعت"
+      },
+      "name": "اکانت اشتراکی Grok",
+      "originalPrice": null,
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "slug": "grok-shared"
+    },
+    {
+      "_id": "25f64b2e-da12-4351-b496-57fd461d990a",
+      "_key": "25fe5036ddd8",
+      "badges": [
+        "",
+        "Bestseller",
+        "Popular",
+        ""
+      ],
+      "category": "ai account ",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": "خرید اکانت chatgpt plus",
+        "asset": {
+          "_createdAt": "2026-02-16T17:55:24Z",
+          "_id": "image-fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaClfw",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:55:24Z",
+          "assetId": "fbcfe20cd855960d4aa4d8a5de348b12abd27a5d",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dB1%vJZPVNjun4aLbJe:l,b]eTf*bLfkk*g2Zlfjk-fi",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgP/xAAhEAACAgIDAAIDAAAAAAAAAAABAgADBBEFEjETIRQVcf/EABgBAQADAQAAAAAAAAAAAAAAAAIDBAUG/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQQhAxITMTL/2gAMAwEAAhEDEQA/AMBk8t+JbTTTV819p0F3rUp5ufk4C0vk46GpyAWRt9dzD5+Q1HM4twZVCHe28lXmOdXkKqKKXrLF12ASSfuQznPyJRWjjYYqSi+tp+2a9m2djwwify/S/wAEJZoyuzIv6hcojum47icBVjOLFqHYefUewbOp8lGy89PIHpilkcnzeiU1bBvITpZaSxhHbBR//9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#25444c",
+                "foreground": "#fff",
+                "population": 0.02,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#048c64",
+                "foreground": "#fff",
+                "population": 9.19,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#048c64",
+                "foreground": "#fff",
+                "population": 9.19,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0e8a2a",
+                "foreground": "#fff",
+                "population": 0,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#4ded72",
+                "foreground": "#000",
+                "population": 3.58,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#56b46e",
+                "foreground": "#fff",
+                "population": 0.13,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#0e9c6b",
+                "foreground": "#fff",
+                "population": 9.06,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "khcFDQaEp3Z4+WiYiIaZmAmMs9UI"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "c52a8b98-cb23-4c72-9602-523b3cb1eea7_18_11zon.webp",
+          "path": "images/zrvdkcjy/production/fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536.webp",
+          "sha1hash": "fbcfe20cd855960d4aa4d8a5de348b12abd27a5d",
+          "size": 28838,
+          "uploadId": "fvG9pdVzJahiTCyIzt3IyvPIZmgsdifz",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/fbcfe20cd855960d4aa4d8a5de348b12abd27a5d-1024x1536.webp"
+        },
+        "caption": "با خرید اکانت ChatGPT Plus، از دسترسی نامحدود به GPT-4 و ابزارهای پیشرفته هوش مصنوعی لذت ببرید"
+      },
+      "name": " اکانت ChatGPT Plus اختصاصی ",
+      "originalPrice": null,
+      "price": null,
+      "rating": 4.5,
+      "reviewCount": 4054,
+      "slug": "chatgpt-plus"
+    },
+    {
+      "_id": "c0e70119-cf99-4ef9-9896-e46c080174a3",
+      "_key": "ddbab84e2a2f",
+      "badges": [
+        "Google Ai Pro",
+        "تولید محتوا و برنامه نویسی",
+        "پشتیبانی تلگرام",
+        "تحویل ۱ -۱۲ ساعت"
+      ],
+      "category": " Gemini (Google)",
+      "discountPercentage": null,
+      "image": {
+        "_type": "image",
+        "alt": "لوگوی Google Gemini",
+        "asset": {
+          "_createdAt": "2026-02-16T17:56:05Z",
+          "_id": "image-ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536-webp",
+          "_rev": "pPW5lgF10KupZ3PeBaD0Nr",
+          "_type": "sanity.imageAsset",
+          "_updatedAt": "2026-02-16T17:56:05Z",
+          "assetId": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "extension": "webp",
+          "metadata": {
+            "_type": "sanity.imageMetadata",
+            "blurHash": "dH5#DdR_RXR-tWa]RkWXW2a*oroMRZa%tJoeWsbIoHoI",
+            "dimensions": {
+              "_type": "sanity.imageDimensions",
+              "aspectRatio": 0.6666666666666666,
+              "height": 1536,
+              "width": 1024
+            },
+            "hasAlpha": false,
+            "isOpaque": true,
+            "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQDBgIFB//EACIQAAICAgEEAwEAAAAAAAAAAAECAAMEEQUSEzFBBhRRgf/EABcBAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAeEQACAwABBQAAAAAAAAAAAAABEQACAxIFEyEyof/aAAwDAQACEQMRAD8A4LVnUY7qrKXY+hNycpK2qrvxrKjYAVJ9gypcf3H5ertMgsB2O54lz+Vclm8n9W/JTFrWhVQithsn+SsPVdqbHMIVg3qQm/kwdeliBCLNf1HcJQsRkCVKoccO2/BjOLjqjhiSdfpkamTo0T1xz5cl5mVaBx8WQioY6hC+5CFP/9k=",
+            "palette": {
+              "_type": "sanity.imagePalette",
+              "darkMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#263542",
+                "foreground": "#fff",
+                "population": 0.06,
+                "title": "#fff"
+              },
+              "darkVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "dominant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#2d067d",
+                "foreground": "#fff",
+                "population": 9,
+                "title": "#fff"
+              },
+              "lightMuted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#d9aea8",
+                "foreground": "#000",
+                "population": 1.91,
+                "title": "#fff"
+              },
+              "lightVibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#7a73f4",
+                "foreground": "#fff",
+                "population": 0.08,
+                "title": "#fff"
+              },
+              "muted": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3e5776",
+                "foreground": "#fff",
+                "population": 0.26,
+                "title": "#fff"
+              },
+              "vibrant": {
+                "_type": "sanity.imagePaletteSwatch",
+                "background": "#3a29cc",
+                "foreground": "#fff",
+                "population": 8.56,
+                "title": "#fff"
+              }
+            },
+            "thumbHash": "DhUGHQSAt213yXmYiIeXiCyGEA7W"
+          },
+          "mimeType": "image/webp",
+          "originalFilename": "ChatGPT Image Nov 15, 2025, 09_37_06 PM_19_11zon.webp",
+          "path": "images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp",
+          "sha1hash": "ecc95189d6659daf01f26c8300d89b2680452aab",
+          "size": 20488,
+          "uploadId": "PC1pm6OX2picQoAmmyr7jGBN2tkz0kSJ",
+          "url": "https://cdn.sanity.io/images/zrvdkcjy/production/ecc95189d6659daf01f26c8300d89b2680452aab-1024x1536.webp"
+        },
+        "caption": "خرید اکانت Gemini Pro تحویل ۱ الی ۱۲ ساعت|ضمانت تعویض اکانت|"
+      },
+      "name": " اکانت اختصاصی    Gemini(Google AI Pro)",
+      "originalPrice": null,
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "slug": "google-ai-gemini"
+    }
+  ]
+}
