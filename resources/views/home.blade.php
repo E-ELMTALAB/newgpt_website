@@ -24,7 +24,7 @@
 
         <div class="hero-actions">
             <a class="btn" href="{{ route('products.index') }}">مشاهده محصولات</a>
-            <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره خرید</a>
+            <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره قبل خرید</a>
         </div>
     </div>
 </section>
@@ -107,7 +107,7 @@
 </section>
 
 <section class="section-head">
-    <h2>سوالات متداول</h2>
+    <h2>سوالات متداول خرید</h2>
 </section>
 <section class="faq-stack stack">
     @foreach($faqs as $faq)
