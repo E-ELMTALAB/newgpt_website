@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+:root { --bg:#f3f6fb; --card:#fff; --text:#111827; --primary:#2563eb; }
+body{direction:rtl;background:var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;margin:0;line-height:1.8}
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.topbar nav{display:flex;gap:1rem}
+.logo{font-weight:700;text-decoration:none;color:#0f172a}
+.hero{background:linear-gradient(120deg,#dbeafe,#eff6ff);border-radius:18px;padding:2rem;margin:1rem 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{background:var(--card);border:1px solid #e5e7eb;border-radius:14px;padding:1rem;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.btn{display:inline-block;background:var(--primary);color:#fff;text-decoration:none;border:none;border-radius:10px;padding:.6rem 1rem;cursor:pointer}
+.form{display:grid;gap:.7rem}.form input,.form textarea{border:1px solid #d1d5db;padding:.7rem;border-radius:10px}
+.chips{display:flex;gap:.6rem;overflow:auto;margin-bottom:1rem}.chips a{background:#e2e8f0;padding:.4rem .8rem;border-radius:999px;text-decoration:none}
+.footer{padding:2rem 1rem;color:#64748b}
