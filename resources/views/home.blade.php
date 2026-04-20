@@ -1,59 +1,60 @@
 @extends('layouts.app')
 @section('content')
-<section class="hero">
-    <div class="hero-content">
-        <span class="badge">فروشگاه تخصصی اشتراک دیجیتال</span>
-        <h1>خرید مطمئن اکانت‌های دیجیتال و اشتراک هوش مصنوعی</h1>
-        <p>{{ $siteSetting->homepage_intro ?? 'تحویل سریع، پشتیبانی واقعی و قیمت‌گذاری شفاف برای کسب‌وکارها و کاربران حرفه‌ای.' }}</p>
+<section class="hero glass">
+    <div>
+        <span class="kicker">فروشگاه پریمیوم اکانت دیجیتال</span>
+        <h1>خرید سریع اکانت و اشتراک هوش مصنوعی با پشتیبانی واقعی</h1>
+        <p>{{ $siteSetting->homepage_intro ?? 'تحویل سریع، گارانتی تعویض، و تیم پشتیبانی واقعی برای خرید مطمئن سرویس‌های دیجیتال.' }}</p>
+
         <div class="hero-actions">
             <a class="btn" href="{{ route('products.index') }}">مشاهده محصولات</a>
-            <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره خرید</a>
+            <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره قبل خرید</a>
         </div>
     </div>
-    <div class="hero-stats">
-        <article class="stat-card"><strong>تحویل</strong><span>از ۵ تا ۳۰ دقیقه</span></article>
-        <article class="stat-card"><strong>پشتیبانی</strong><span>۷ روز هفته</span></article>
-        <article class="stat-card"><strong>گارانتی</strong><span>اصالت سرویس</span></article>
+
+    <div class="stat-grid">
+        <article class="stat-item"><strong>+۱۲۰۰ سفارش</strong><span>ثبت موفق در ماه گذشته</span></article>
+        <article class="stat-item"><strong>تحویل آنی</strong><span>فعال‌سازی ۵ تا ۳۰ دقیقه</span></article>
+        <article class="stat-item"><strong>پشتیبانی ۷ روزه</strong><span>از خرید تا استفاده کامل</span></article>
     </div>
 </section>
 
 <section class="section-head">
     <div>
+        <h2>نشان‌های اعتماد</h2>
+        <p>طراحی فروش‌محور همراه با شفافیت قیمت و تضمین خدمات.</p>
+    </div>
+</section>
+@include('partials.store.trust-strip')
+
+<section class="section-head">
+    <div>
         <h2>محصولات ویژه</h2>
-        <p>منتخب سرویس‌های پرفروش با فعال‌سازی سریع و پشتیبانی کامل.</p>
+        <p>محصولات پرفروش با پشتیبانی کامل و راهنمای فعال‌سازی.</p>
     </div>
     <a class="btn btn-ghost" href="{{ route('products.index') }}">مشاهده همه</a>
 </section>
-<section>
-    <div class="grid">
-        @foreach($featuredProducts as $product)
-            <article class="card card-product">
-                <h3><a href="{{ route('products.show', $product) }}">{{ $product->name }}</a></h3>
-                <p>{{ $product->short_description }}</p>
-                <div class="card-meta">
-                    <strong>{{ number_format($product->price) }} تومان</strong>
-                    <a class="btn btn-sm" href="{{ route('products.show', $product) }}">جزئیات</a>
-                </div>
-            </article>
-        @endforeach
-    </div>
-</section>
-
-<section class="section-head">
-    <h2>دسته‌بندی‌ها</h2>
-</section>
-<section class="category-grid">
-    @foreach($categories as $category)
-        <a class="card category-card" href="{{ route('products.category', $category) }}">{{ $category->name }}</a>
+<section class="grid-cards">
+    @foreach($featuredProducts as $product)
+        @include('partials.store.product-card', ['product' => $product])
     @endforeach
 </section>
 
 <section class="section-head">
-    <h2>سوالات متداول</h2>
+    <h2>دسته‌بندی سرویس‌ها</h2>
 </section>
-<section class="faq-stack">
+<section class="chips">
+    @foreach($categories as $category)
+        <a href="{{ route('products.category', $category) }}">{{ $category->name }}</a>
+    @endforeach
+</section>
+
+<section class="section-head">
+    <h2>سوالات متداول خرید</h2>
+</section>
+<section class="faq-stack stack">
     @foreach($faqs as $faq)
-        <details class="card faq-item">
+        <details>
             <summary>{{ $faq->question }}</summary>
             <p>{{ $faq->answer }}</p>
         </details>
@@ -62,25 +63,14 @@
 
 <section class="section-head">
     <div>
-        <h2>آخرین مقالات</h2>
-        <p>جدیدترین مطالب آموزشی و راهنمای خرید سرویس‌های دیجیتال.</p>
+        <h2>از مجله نیو جی‌پی‌تی</h2>
+        <p>آموزش‌ها و راهنماهای تصمیم‌گیری قبل از خرید سرویس.</p>
     </div>
-    <a class="btn btn-ghost" href="{{ route('blog.index') }}">مشاهده وبلاگ</a>
+    <a class="btn btn-ghost" href="{{ route('blog.index') }}">ورود به وبلاگ</a>
 </section>
-<section>
-    <div class="grid">
-        @foreach($blogPosts as $post)
-            <article class="card">
-                <h3><a href="{{ route('blog.show',$post) }}">{{ $post->title }}</a></h3>
-                <p>{{ $post->excerpt }}</p>
-            </article>
-        @endforeach
-    </div>
-</section>
-
-<section class="cta-strip">
-    <h2>برای انتخاب بهترین اشتراک نیاز به راهنمایی دارید؟</h2>
-    <p>تیم پشتیبانی آماده است تا مناسب‌ترین پلن را بر اساس نیاز شما معرفی کند.</p>
-    <a class="btn" href="{{ route('contact') }}">ارتباط با پشتیبانی</a>
+<section class="grid-cards">
+    @foreach($blogPosts as $post)
+        @include('partials.store.blog-card', ['post' => $post])
+    @endforeach
 </section>
 @endsection
