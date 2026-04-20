@@ -25,6 +25,29 @@
         <a class="btn hp-main-cta" href="{{ route('products.index') }}">مشاهده محصولات ←</a>
     </div>
 </section>
+<section class="grid-cards">
+    @forelse($featuredProducts as $product)
+        @include('partials.store.product-card', ['product' => $product])
+    @empty
+        <article class="panel">محصول ویژه‌ای ثبت نشده است.</article>
+    @endforelse
+</section>
+
+<section class="section-head">
+    <h2>بنرهای دسته‌بندی</h2>
+</section>
+<section class="home-banner-grid">
+    @foreach($categories->take(2) as $category)
+        <a href="{{ route('products.category', $category) }}" class="home-banner panel">
+            <div>
+                <span class="badge">{{ $category->name }}</span>
+                <h3>کلکسیون {{ $category->name }}</h3>
+                <p>{{ $category->description ?: 'محصولات این دسته را با پشتیبانی کامل مشاهده کنید.' }}</p>
+            </div>
+            <strong>مشاهده دسته ←</strong>
+        </a>
+    @endforeach
+</section>
 
 <section class="section-head hp-tight-head hp-section">
     <div>
