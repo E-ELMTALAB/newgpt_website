@@ -40,11 +40,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libfreetype6-dev \
     libonig-dev \
     libxml2-dev \
+    libpq-dev \
     sqlite3 \
     libsqlite3-dev \
     libicu-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql pdo_sqlite zip gd mbstring bcmath intl \
+    && docker-php-ext-install pdo_mysql pdo_pgsql pgsql pdo_sqlite zip gd mbstring bcmath intl \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
@@ -59,7 +60,8 @@ RUN sed -ri -e 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-avail
     && chmod -R ug+rwx /var/www/html/storage /var/www/html/bootstrap/cache
 
 COPY docker/start.sh /usr/local/bin/start.sh
-RUN chmod +x /usr/local/bin/start.sh
+COPY docker/release.sh /usr/local/bin/release.sh
+RUN chmod +x /usr/local/bin/start.sh /usr/local/bin/release.sh
 
 EXPOSE 80
 CMD ["/usr/local/bin/start.sh"]
