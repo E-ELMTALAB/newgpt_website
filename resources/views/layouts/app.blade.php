@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $metaTitle ?? ($siteSetting->seo_title ?? 'خرید اشتراک هوش مصنوعی') }}</title>
-    <meta name="description" content="{{ $metaDescription ?? ($siteSetting->seo_description ?? 'فروش تخصصی اکانت و اشتراک دیجیتال با تحویل سریع') }}">
+    <title>{{ $metaTitle ?? (optional($siteSetting)->seo_title ?? 'خرید اشتراک هوش مصنوعی') }}</title>
+    <meta name="description" content="{{ $metaDescription ?? (optional($siteSetting)->seo_description ?? 'فروش تخصصی اکانت و اشتراک دیجیتال با تحویل سریع') }}">
     <link rel="canonical" href="{{ url()->current() }}">
     @if(app()->environment('testing'))
         <style>body{font-family:Tahoma,sans-serif}</style>
@@ -17,8 +17,8 @@
     <header class="site-header">
         <div class="container topbar">
             <a href="{{ route('home') }}" class="brand">
-                <strong>{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</strong>
-                <span>{{ $siteSetting->site_tagline ?? 'فروش اکانت‌های دیجیتال مطمئن' }}</span>
+                <strong>{{ optional($siteSetting)->site_name ?? 'نیو جی‌پی‌تی' }}</strong>
+                <span>{{ optional($siteSetting)->site_tagline ?? 'فروش اکانت‌های دیجیتال مطمئن' }}</span>
             </a>
 
             <nav class="main-nav" aria-label="منوی اصلی">
@@ -41,8 +41,8 @@
     <footer class="site-footer">
         <div class="container footer-grid">
             <div>
-                <h3 class="footer-title">{{ $siteSetting->site_name ?? 'نیو جی‌پی‌تی' }}</h3>
-                <p>{{ $siteSetting->homepage_intro ?? 'ارائه اشتراک‌های دیجیتال با پشتیبانی واقعی، قیمت‌گذاری شفاف و تحویل سریع.' }}</p>
+                <h3 class="footer-title">{{ optional($siteSetting)->site_name ?? 'نیو جی‌پی‌تی' }}</h3>
+                <p>{{ optional($siteSetting)->homepage_intro ?? 'ارائه اشتراک‌های دیجیتال با پشتیبانی واقعی، قیمت‌گذاری شفاف و تحویل سریع.' }}</p>
             </div>
             <div>
                 <h4 class="footer-title">لینک‌های اصلی</h4>
@@ -67,7 +67,7 @@
                 <a class="btn btn-sm btn-outline" href="{{ route('contact') }}">درخواست مشاوره</a>
             </div>
         </div>
-        <div class="container footer-note">{{ $siteSetting->footer_text ?? 'تمامی حقوق محفوظ است.' }}</div>
+        <div class="container footer-note">{{ optional($siteSetting)->footer_text ?? 'تمامی حقوق محفوظ است.' }}</div>
     </footer>
 </div>
 </body>
