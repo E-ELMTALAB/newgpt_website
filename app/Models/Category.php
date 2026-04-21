@@ -14,6 +14,13 @@ class Category extends Model
         'name', 'slug', 'description', 'is_active', 'sort_order', 'seo_title', 'seo_description',
     ];
 
+    protected function casts(): array
+    {
+        return [
+            'is_active' => 'boolean',
+        ];
+    }
+
     public function products(): HasMany
     {
         return $this->hasMany(Product::class);
