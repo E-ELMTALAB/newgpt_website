@@ -9,7 +9,7 @@ class BlogController extends Controller
     public function index()
     {
         return view('blog.index', [
-            'posts' => BlogPost::query()->whereTrue('is_published')->latest('published_at')->paginate(9),
+            'posts' => BlogPost::query()->where('is_published', '=', true)->latest('published_at')->paginate(9),
         ]);
     }
 
