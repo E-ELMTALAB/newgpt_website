@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: newgpt-website
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    preDeployCommand: /usr/local/bin/release.sh

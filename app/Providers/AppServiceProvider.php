@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\SiteSetting;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -31,8 +32,10 @@ class AppServiceProvider extends ServiceProvider
             URL::forceScheme('https');
         }
 
-        View::composer('*', function ($view): void {
-            $view->with('siteSetting', SiteSetting::query()->first());
-        });
+        $siteSetting = Schema::hasTable('site_settings')
+            ? SiteSetting::getOrCreateDefault()
+            : null;
+
+        View::share('siteSetting', $siteSetting);
     }
 }
