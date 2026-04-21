@@ -22,6 +22,14 @@ fi
 
 cd /var/www/html
 
+required_extensions="pdo pdo_pgsql pgsql"
+for ext in $required_extensions; do
+  if ! php -m | grep -qi "^${ext}$"; then
+    echo "Missing required PHP extension: ${ext}" >&2
+    exit 1
+  fi
+done
+
 if grep -q '^APP_ENV=local' .env; then
   sed -i 's|^APP_ENV=local|APP_ENV=production|' .env
 fi
@@ -56,6 +64,6 @@ php artisan config:cache
 php artisan route:cache
 php artisan view:cache
 
-php artisan migrate --force || true
+php artisan migrate --force
 
 exec apache2-foreground
