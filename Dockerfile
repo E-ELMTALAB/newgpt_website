@@ -40,11 +40,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libfreetype6-dev \
     libonig-dev \
     libxml2-dev \
+    libpq-dev \
     sqlite3 \
     libsqlite3-dev \
     libicu-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql pdo_sqlite zip gd mbstring bcmath intl \
+    && docker-php-ext-install pdo_mysql pdo_pgsql pgsql pdo_sqlite zip gd mbstring bcmath intl \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
