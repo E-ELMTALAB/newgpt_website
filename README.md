@@ -74,6 +74,13 @@ docker run --rm -p 8080:80 newgpt_website
   - `APP_DEBUG=false`
   - `APP_URL=https://<your-service>.onrender.com`
   - `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
+  - Supabase pooler values for Render IPv4 compatibility:
+    - `DB_HOST=aws-0-eu-west-1.pooler.supabase.com`
+    - `DB_PORT=6543`
+    - `DB_DATABASE=postgres`
+    - `DB_USERNAME=postgres.jnywkkipzeuqooeupxqs`
+    - `DB_SSLMODE=require`
+    - `DB_PGBOUNCER=true`
 - This Docker image installs and enables PostgreSQL drivers (`pdo_pgsql`, `pgsql`) required for Supabase.
 - If you deploy as **Render Native PHP** (without Docker), you cannot install missing PHP extensions from this repo. Use Docker runtime for guaranteed `pdo_pgsql` support.
 - Container starts Apache and serves Laravel from `/public`.
