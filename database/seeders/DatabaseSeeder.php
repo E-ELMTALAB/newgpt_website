@@ -38,12 +38,7 @@ class DatabaseSeeder extends Seeder
             'guarantee_notes' => 'گارانتی تعویض و پشتیبانی فعال.',
         ]);
 
-        SiteSetting::query()->firstOrCreate(['id' => 1], [
-            'site_name' => 'نیو جی‌پی‌تی',
-            'site_tagline' => 'مرکز خرید اکانت‌های دیجیتال',
-            'homepage_intro' => 'فروش مستقیم اکانت‌های معتبر با تحویل سریع و پشتیبانی واقعی.',
-            'footer_text' => 'نیو جی‌پی‌تی | فروش مطمئن اشتراک دیجیتال',
-        ]);
+        SiteSetting::getOrCreateDefault();
 
         Faq::query()->firstOrCreate(['question' => 'زمان تحویل اکانت چقدر است؟'], [
             'answer' => 'در اکثر موارد کمتر از ۳۰ دقیقه تحویل انجام می‌شود.',
