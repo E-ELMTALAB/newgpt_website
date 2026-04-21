@@ -37,32 +37,26 @@
 
     <section class="home-products-section">
         <div class="section-head home-section-head">
-            <h2>هوش مصنوعی کاربردی</h2>
+            <h2>همه محصولات</h2>
+            <a class="btn btn-ghost btn-sm" href="{{ route('products.index') }}">نمایش صفحه فروشگاه</a>
         </div>
 
-        <div class="home-products-grid">
-            @forelse($featuredProducts->take(15) as $product)
-                <article class="home-product-card">
-                    <a href="{{ route('products.show', $product) }}" class="home-product-cover">
-                        @if($product->featured_image)
-                            <img src="{{ $product->featured_image }}" alt="{{ $product->name }}">
-                        @else
-                            <span>{{ mb_substr($product->name, 0, 2) }}</span>
-                        @endif
-                    </a>
-                    <div class="home-product-body">
-                        <h3>{{ $product->name }}</h3>
-                        <div class="home-product-price">
-                            <span>قیمت از:</span>
-                            <strong>{{ number_format($product->price) }}</strong>
-                            <small>تومان</small>
-                        </div>
-                    </div>
-                </article>
+        <nav class="chips" aria-label="دسته‌بندی محصولات">
+            <a class="active" href="{{ route('products.index') }}">همه</a>
+            @foreach($categories as $category)
+                <a href="{{ route('products.category', $category) }}">{{ $category->name }}</a>
+            @endforeach
+        </nav>
+
+        <section class="grid-cards">
+            @forelse($products as $product)
+                @include('partials.store.product-card', ['product' => $product])
             @empty
                 <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
             @endforelse
-        </div>
+        </section>
+
+        <div style="margin-top:1rem">{{ $products->links() }}</div>
     </section>
 
     <section class="home-faq panel">

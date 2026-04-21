@@ -17,7 +17,14 @@ class HomeController extends Controller
             ->latest()
             ->get();
 
+        $products = Product::query()
+            ->where('is_active', '=', true)
+            ->with('category')
+            ->latest()
+            ->paginate(12);
+
         return view('home', [
+            'products' => $products,
             'featuredProducts' => $activeProducts->where('is_featured', true)->take(8)->values(),
             'discountProducts' => $activeProducts
                 ->filter(fn (Product $product): bool => ! empty($product->compare_price) && $product->compare_price > $product->price)
