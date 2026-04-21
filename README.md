@@ -69,6 +69,10 @@ docker run --rm -p 8080:80 newgpt_website
 
 ### Render notes
 - Render will detect the `Dockerfile` at repo root and build it.
+- This repo includes `render.yaml` with a **pre-deploy command**:
+  - `/usr/local/bin/release.sh` (runs migrations, and optional seeding)
+- Runtime start command is container default:
+  - `/usr/local/bin/start.sh` (starts Apache and keeps process running)
 - Set your environment vars in Render dashboard:
   - `APP_ENV=production`
   - `APP_DEBUG=false`
@@ -80,6 +84,7 @@ docker run --rm -p 8080:80 newgpt_website
     - `DB_DATABASE=postgres`
     - `DB_USERNAME=postgres.jnywkkipzeuqooeupxqs`
     - `DB_SSLMODE=require`
+  - `RUN_DB_SEED_ON_DEPLOY=false` (set `true` only when you intentionally want seeding during pre-deploy)
 - This Docker image installs and enables PostgreSQL drivers (`pdo_pgsql`, `pgsql`) required for Supabase.
 - If you deploy as **Render Native PHP** (without Docker), you cannot install missing PHP extensions from this repo. Use Docker runtime for guaranteed `pdo_pgsql` support.
 - Container starts Apache and serves Laravel from `/public`.
