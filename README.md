@@ -80,7 +80,6 @@ docker run --rm -p 8080:80 newgpt_website
     - `DB_DATABASE=postgres`
     - `DB_USERNAME=postgres.jnywkkipzeuqooeupxqs`
     - `DB_SSLMODE=require`
-    - `DB_PGBOUNCER=true`
 - This Docker image installs and enables PostgreSQL drivers (`pdo_pgsql`, `pgsql`) required for Supabase.
 - If you deploy as **Render Native PHP** (without Docker), you cannot install missing PHP extensions from this repo. Use Docker runtime for guaranteed `pdo_pgsql` support.
 - Container starts Apache and serves Laravel from `/public`.
