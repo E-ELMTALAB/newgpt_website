@@ -74,5 +74,6 @@ docker run --rm -p 8080:80 newgpt_website
   - `APP_DEBUG=false`
   - `APP_URL=https://<your-service>.onrender.com`
   - `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
-- For SQLite deployments, prefer non-database runtime stores to avoid write errors on immutable DB files: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`.
+- This Docker image installs and enables PostgreSQL drivers (`pdo_pgsql`, `pgsql`) required for Supabase.
+- If you deploy as **Render Native PHP** (without Docker), you cannot install missing PHP extensions from this repo. Use Docker runtime for guaranteed `pdo_pgsql` support.
 - Container starts Apache and serves Laravel from `/public`.
