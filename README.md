@@ -69,10 +69,23 @@ docker run --rm -p 8080:80 newgpt_website
 
 ### Render notes
 - Render will detect the `Dockerfile` at repo root and build it.
+- This repo includes `render.yaml` with a **pre-deploy command**:
+  - `/usr/local/bin/release.sh` (runs migrations, and optional seeding)
+- Runtime start command is container default:
+  - `/usr/local/bin/start.sh` (starts Apache and keeps process running)
+  - Apache is configured at runtime to bind to Render's dynamic `$PORT`.
 - Set your environment vars in Render dashboard:
   - `APP_ENV=production`
   - `APP_DEBUG=false`
   - `APP_URL=https://<your-service>.onrender.com`
   - `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
-- For SQLite deployments, prefer non-database runtime stores to avoid write errors on immutable DB files: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`.
+  - Supabase pooler values for Render IPv4 compatibility:
+    - `DB_HOST=aws-0-eu-west-1.pooler.supabase.com`
+    - `DB_PORT=6543`
+    - `DB_DATABASE=postgres`
+    - `DB_USERNAME=postgres.jnywkkipzeuqooeupxqs`
+    - `DB_SSLMODE=require`
+  - `RUN_DB_SEED_ON_DEPLOY=false` (set `true` only when you intentionally want seeding during pre-deploy)
+- This Docker image installs and enables PostgreSQL drivers (`pdo_pgsql`, `pgsql`) required for Supabase.
+- If you deploy as **Render Native PHP** (without Docker), you cannot install missing PHP extensions from this repo. Use Docker runtime for guaranteed `pdo_pgsql` support.
 - Container starts Apache and serves Laravel from `/public`.

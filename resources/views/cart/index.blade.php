@@ -2,16 +2,16 @@
 @section('content')
 <section class="details-grid">
     <article class="panel">
-        <h1 style="margin:0 0 .4rem">سبد خرید</h1>
+        <h1 class="title-sm">سبد خرید</h1>
         <p>در این نسخه نمایشی، سبد خرید از محصولات پیشنهادی پر شده است.</p>
 
-        <div class="stack" style="margin-top:1rem">
+        <div class="stack spaced-top">
             @forelse($cartProducts as $product)
-                <article class="panel" style="background:rgba(255,255,255,.05)">
-                    <div class="card-meta" style="margin:0; padding-top:0; border-top:0">
+                <article class="panel muted-card">
+                    <div class="card-meta card-meta-reset">
                         <div>
                             <strong>{{ $product->name }}</strong>
-                            <p style="margin:0">{{ $product->short_description }}</p>
+                            <p>{{ $product->short_description }}</p>
                         </div>
                         <span class="badge">۱ عدد</span>
                     </div>
@@ -27,7 +27,7 @@
     </article>
 
     <aside class="panel">
-        <h2 style="margin:0 0 .5rem">خلاصه سفارش</h2>
+        <h2 class="title-sm">خلاصه سفارش</h2>
         @php($total = $cartProducts->sum('price'))
         <table class="table-lite">
             <tr><td>جمع محصولات</td><td>{{ number_format($total) }} تومان</td></tr>
@@ -36,7 +36,7 @@
         </table>
 
         @if($cartProducts->first())
-            <a class="btn" style="margin-top:1rem; width:100%" href="{{ route('checkout.show', $cartProducts->first()) }}">ادامه و پرداخت</a>
+            <a class="btn full-width-btn" href="{{ route('checkout.show', $cartProducts->first()) }}">ادامه و پرداخت</a>
         @endif
     </aside>
 </section>

@@ -22,6 +22,25 @@ fi
 
 cd /var/www/html
 
+PORT_TO_BIND="${PORT:-80}"
+case "$PORT_TO_BIND" in
+  ''|*[!0-9]*)
+    echo "Invalid PORT value: $PORT_TO_BIND" >&2
+    exit 1
+    ;;
+esac
+
+sed -ri "s/^Listen [0-9]+$/Listen ${PORT_TO_BIND}/" /etc/apache2/ports.conf
+sed -ri "s/<VirtualHost \\*:[0-9]+>/<VirtualHost *:${PORT_TO_BIND}>/" /etc/apache2/sites-available/000-default.conf
+
+required_extensions="pdo pdo_pgsql pgsql"
+for ext in $required_extensions; do
+  if ! php -m | grep -qi "^${ext}$"; then
+    echo "Missing required PHP extension: ${ext}" >&2
+    exit 1
+  fi
+done
+
 if grep -q '^APP_ENV=local' .env; then
   sed -i 's|^APP_ENV=local|APP_ENV=production|' .env
 fi
@@ -55,7 +74,5 @@ php artisan filament:upgrade --no-interaction || true
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
-
-php artisan migrate --force || true
 
 exec apache2-foreground

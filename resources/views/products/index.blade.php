@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section class="section-head">
-    <div>
+    <div class="page-heading">
         <h1>{{ isset($currentCategory) ? 'دسته‌بندی: '.$currentCategory->name : 'فروشگاه محصولات دیجیتال' }}</h1>
         <p>{{ isset($currentCategory) ? ($currentCategory->description ?: 'محصولات این دسته با تحویل سریع و پشتیبانی واقعی.') : 'انتخاب پلن مناسب برای اشتراک‌های هوش مصنوعی، شبکه اجتماعی و ابزارهای کاری.' }}</p>
     </div>
@@ -22,5 +22,5 @@
     @endforelse
 </section>
 
-<div style="margin-top:1rem">{{ $products->links() }}</div>
+<div class="spaced-top">{{ $products->links() }}</div>
 @endsection
