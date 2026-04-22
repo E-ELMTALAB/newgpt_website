@@ -73,6 +73,7 @@ docker run --rm -p 8080:80 newgpt_website
   - `/usr/local/bin/release.sh` (runs migrations, and optional seeding)
 - Runtime start command is container default:
   - `/usr/local/bin/start.sh` (starts Apache and keeps process running)
+  - Apache is configured at runtime to bind to Render's dynamic `$PORT`.
 - Set your environment vars in Render dashboard:
   - `APP_ENV=production`
   - `APP_DEBUG=false`

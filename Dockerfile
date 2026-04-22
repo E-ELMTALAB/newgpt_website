@@ -63,5 +63,5 @@ COPY docker/start.sh /usr/local/bin/start.sh
 COPY docker/release.sh /usr/local/bin/release.sh
 RUN chmod +x /usr/local/bin/start.sh /usr/local/bin/release.sh
 
-EXPOSE 80
+EXPOSE 10000
 CMD ["/usr/local/bin/start.sh"]
