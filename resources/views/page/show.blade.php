@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section class="section-head">
-    <div>
+    <div class="page-heading">
         <h1>{{ $page->title }}</h1>
         <p>سند رسمی نیو جی‌پی‌تی برای آگاهی کامل قبل از خرید.</p>
     </div>
@@ -11,15 +11,15 @@
     <article class="panel rich-text">{!! nl2br(e($page->content)) !!}</article>
     <aside class="stack">
         <section class="panel">
-            <h3 style="margin:0 0 .5rem">صفحات سیاست</h3>
-            <div class="footer-links">
+            <h3 class="title-sm">صفحات سیاست</h3>
+            <div class="page-links-list">
                 <a href="{{ route('page.policy', ['page' => 'refund-policy']) }}">سیاست بازگشت وجه</a>
                 <a href="{{ route('page.policy', ['page' => 'terms']) }}">قوانین خدمات</a>
                 <a href="{{ route('page.policy', ['page' => 'privacy']) }}">حریم خصوصی</a>
             </div>
         </section>
         <section class="panel">
-            <h3 style="margin:0 0 .5rem">نیاز به توضیح بیشتر؟</h3>
+            <h3 class="title-sm">نیاز به توضیح بیشتر؟</h3>
             <a class="btn btn-outline" href="{{ route('contact') }}">تماس با پشتیبانی</a>
         </section>
     </aside>

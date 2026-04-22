@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section class="section-head">
-    <div>
+    <div class="page-heading">
         <h1>مجله خرید هوشمند</h1>
         <p>راهنمای پلن‌ها، مقایسه سرویس‌ها، و نکات استفاده حرفه‌ای از اشتراک‌های دیجیتال.</p>
     </div>
@@ -15,5 +15,5 @@
     @endforelse
 </section>
 
-<div style="margin-top:1rem">{{ $posts->links() }}</div>
+<div class="spaced-top">{{ $posts->links() }}</div>
 @endsection

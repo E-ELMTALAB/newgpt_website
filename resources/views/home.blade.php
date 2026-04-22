@@ -56,7 +56,7 @@
             @endforelse
         </section>
 
-        <div style="margin-top:1rem">{{ $products->links() }}</div>
+        <div class="spaced-top">{{ $products->links() }}</div>
     </section>
 
     <section class="home-faq panel">
