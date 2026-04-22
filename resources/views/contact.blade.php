@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section class="section-head">
-    <div>
+    <div class="page-heading">
         <h1>پشتیبانی و ارتباط با ما</h1>
         <p>قبل از خرید یا بعد از پرداخت، تیم پشتیبانی برای راهنمایی کامل در کنار شماست.</p>
     </div>
@@ -9,13 +9,13 @@
 
 @include('partials.store.trust-strip')
 
-<section class="grid-cards" style="margin-top:1rem">
+<section class="grid-cards spaced-top">
     @forelse($methods as $method)
         <article class="panel">
-            <h3 style="margin:0 0 .35rem">{{ $method->title }}</h3>
+            <h3 class="contact-card-title">{{ $method->title }}</h3>
             <p>{{ $method->value }}</p>
             @if($method->link)
-                <a class="btn btn-sm btn-outline" style="margin-top:.7rem" href="{{ $method->link }}" target="_blank" rel="noopener">ورود به کانال</a>
+                <a class="btn btn-sm btn-outline inline-actions" href="{{ $method->link }}" target="_blank" rel="noopener">ورود به کانال</a>
             @endif
         </article>
     @empty

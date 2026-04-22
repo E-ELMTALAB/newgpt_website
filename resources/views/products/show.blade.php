@@ -3,10 +3,10 @@
 <article class="details-grid">
     <section class="panel">
         <span class="badge">{{ $product->category?->name ?? 'محصول دیجیتال' }}</span>
-        <h1 style="margin:.6rem 0 .45rem">{{ $product->name }}</h1>
+        <h1 class="detail-main-title">{{ $product->name }}</h1>
         <p>{{ $product->short_description }}</p>
 
-        <div class="card-meta" style="margin-top:1rem">
+        <div class="card-meta spaced-top">
             <div class="price-row">
                 <strong>{{ number_format($product->price) }} تومان</strong>
                 @if($product->compare_price)<del>{{ number_format($product->compare_price) }}</del>@endif
@@ -14,20 +14,20 @@
             <a class="btn" href="{{ route('checkout.show',$product) }}">خرید مستقیم</a>
         </div>
 
-        <div class="rich-text" style="margin-top:1rem">{!! nl2br(e($product->description)) !!}</div>
+        <div class="rich-text rich-block">{!! nl2br(e($product->description)) !!}</div>
     </section>
 
     <aside class="stack">
         <section class="panel">
-            <h2 style="margin:0 0 .3rem">تحویل و فعال‌سازی</h2>
+            <h2 class="title-sm">تحویل و فعال‌سازی</h2>
             <p>{{ $product->delivery_notes ?: 'تحویل این محصول کمتر از ۳۰ دقیقه انجام می‌شود.' }}</p>
         </section>
         <section class="panel">
-            <h2 style="margin:0 0 .3rem">گارانتی و پشتیبانی</h2>
+            <h2 class="title-sm">گارانتی و پشتیبانی</h2>
             <p>{{ $product->guarantee_notes ?: 'در طول دوره اشتراک پشتیبانی کامل ارائه می‌شود.' }}</p>
         </section>
         <section class="panel">
-            <h2 style="margin:0 0 .5rem">نیاز به انتخاب سریع دارید؟</h2>
+            <h2 class="title-sm">نیاز به انتخاب سریع دارید؟</h2>
             <a class="btn btn-outline" href="{{ route('contact') }}">ارتباط با پشتیبانی</a>
         </section>
     </aside>
