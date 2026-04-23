@@ -41,22 +41,13 @@
         </section>
 
         <section class="home-products-flow">
-            @php($groupedProducts = $products->getCollection()->groupBy('category_id'))
-            @forelse($groupedProducts as $items)
-                @php($groupCategory = optional($items->first()->category)->name ?? 'سایر محصولات')
-                <section class="home-product-group">
-                    <div class="home-product-group-head">
-                        <h3>{{ $groupCategory }}</h3>
-                    </div>
-                    <section class="grid-cards home-group-grid">
-                        @foreach($items as $product)
-                            @include('partials.store.product-card', ['product' => $product])
-                        @endforeach
-                    </section>
-                </section>
-            @empty
-                <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
-            @endforelse
+            <section class="grid-cards home-group-grid">
+                @forelse($products as $product)
+                    @include('partials.store.product-card', ['product' => $product])
+                @empty
+                    <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
+                @endforelse
+            </section>
 
             <div class="spaced-top">{{ $products->links() }}</div>
         </section>

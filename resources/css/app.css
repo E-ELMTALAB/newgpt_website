@@ -1235,18 +1235,7 @@ body.is-home .header-actions .btn {
 
 .home-products-flow {
     display: grid;
-    gap: 1rem;
-}
-
-.home-product-group {
-    display: grid;
-    gap: .6rem;
-}
-
-.home-product-group-head h3 {
-    margin: 0 0 .2rem;
-    font-size: 1rem;
-    color: #d8e8ff;
+    gap: .65rem;
 }
 
 .home-group-grid {

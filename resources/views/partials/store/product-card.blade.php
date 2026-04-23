@@ -15,7 +15,7 @@
     </div>
 
     <div class="home-product-meta-row">
-        <span>{{ $product->category?->name ?? 'محصول دیجیتال' }}</span>
-        <span>اشتراک ویژه</span>
+        <span>اکانت اصلی</span>
+        <span>تحویل سریع</span>
     </div>
 </article>
