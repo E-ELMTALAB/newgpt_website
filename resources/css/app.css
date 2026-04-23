@@ -886,13 +886,13 @@ body.is-home .site-header {
 }
 
 body.is-home .topbar {
-    min-height: 74px;
+    min-height: 66px;
     padding-inline: 1rem;
 }
 
 body.is-home .page-main {
-    padding-top: 1rem;
-    padding-bottom: 1.6rem;
+    padding-top: .7rem;
+    padding-bottom: 1.2rem;
 }
 
 body.is-home .main-nav a {
@@ -1101,7 +1101,7 @@ body.is-home .header-actions .btn {
 
 .home-layout {
     display: grid;
-    gap: .95rem;
+    gap: .75rem;
 }
 
 .home-top-banner {
@@ -1121,7 +1121,14 @@ body.is-home .header-actions .btn {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: .6rem;
-    margin-top: .35rem;
+    margin-top: .2rem;
+}
+
+.home-main-shell {
+    border-radius: var(--radius-xl);
+    padding: 1.1rem;
+    display: grid;
+    gap: 1.1rem;
 }
 
 .home-tab-chip {
@@ -1156,16 +1163,8 @@ body.is-home .header-actions .btn {
     padding: .08rem .4rem;
 }
 
-.home-intro.panel,
-.home-faq.panel {
-    background: rgba(11, 21, 50, 0.78);
-    border-color: var(--line);
-    box-shadow: var(--shadow);
-}
-
 .home-intro {
-    padding: clamp(1rem, 2vw, 1.5rem);
-    border-radius: var(--radius-xl);
+    padding: .2rem;
 }
 
 .home-intro-grid {
@@ -1236,16 +1235,16 @@ body.is-home .header-actions .btn {
 
 .home-products-flow {
     display: grid;
-    gap: .8rem;
+    gap: 1rem;
 }
 
 .home-product-group {
     display: grid;
-    gap: .5rem;
+    gap: .6rem;
 }
 
 .home-product-group-head h3 {
-    margin: 0;
+    margin: 0 0 .2rem;
     font-size: 1rem;
     color: #d8e8ff;
 }
@@ -1255,8 +1254,8 @@ body.is-home .header-actions .btn {
 }
 
 .home-faq {
-    padding: .35rem 0 0;
-    margin-top: .2rem;
+    padding: .15rem 0 0;
+    margin-top: 0;
 }
 
 .home-faq-list {
@@ -1399,6 +1398,10 @@ body.is-home .header-actions .btn {
     .home-intro-grid {
         grid-template-columns: 1fr;
         direction: rtl;
+    }
+
+    .home-main-shell {
+        padding: .9rem;
     }
 }
 
