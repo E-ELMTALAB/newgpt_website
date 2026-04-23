@@ -2,12 +2,20 @@
 @section('content')
 <section class="home-layout">
     <section class="home-tabs-strip" aria-label="دسته‌بندی‌ها">
-        @foreach($categories->take(6) as $category)
-            <a href="{{ route('products.category', $category) }}" class="home-tab-chip {{ $loop->first ? 'is-active' : '' }}">
+        @php($homeTopLinks = [
+            ['label' => 'پرداخت ارزی', 'url' => '/services/international-payments'],
+            ['label' => 'اکانت های هوش مصنوعی', 'url' => '/account/artificial-inteligence'],
+            ['label' => 'خدمات ویژه', 'url' => '/services/premium'],
+            ['label' => 'اشتراک تیمی', 'url' => '/services/team-plans'],
+            ['label' => 'راهنما', 'url' => '/guides'],
+            ['label' => 'تماس با ما', 'url' => '/contact'],
+        ])
+        @foreach($homeTopLinks as $link)
+            <a href="{{ $link['url'] }}" class="home-tab-chip {{ $loop->first ? 'is-active' : '' }}">
                 @if($loop->first)
                     <span class="home-tab-badge">جدید</span>
                 @endif
-                <span>{{ $category->name }}</span>
+                <span>{{ $link['label'] }}</span>
             </a>
         @endforeach
     </section>
@@ -50,7 +58,7 @@
 
         <section class="grid-cards">
             @forelse($products as $product)
-                @include('partials.store.product-card', ['product' => $product])
+                @include('partials.store.product-card', ['product' => $product, 'homeCard' => true])
             @empty
                 <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
             @endforelse

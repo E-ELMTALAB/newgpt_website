@@ -21,18 +21,16 @@
                 <span>{{ optional($siteSetting)->site_tagline ?? 'فروش اکانت‌های دیجیتال مطمئن' }}</span>
             </a>
 
-            <nav class="main-nav" aria-label="منوی اصلی">
+            <button class="nav-toggle" type="button" aria-label="باز کردن منو" aria-expanded="false" data-nav-toggle data-nav-target="main-nav">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="main-nav" aria-label="منوی اصلی" data-main-nav>
                 <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">خانه</a>
-                <a href="{{ route('products.index') }}" class="{{ request()->routeIs('products.*') ? 'active' : '' }}">محصولات</a>
                 <a href="{{ route('blog.index') }}" class="{{ request()->routeIs('blog.*') ? 'active' : '' }}">وبلاگ</a>
                 <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">پشتیبانی</a>
                 <a href="{{ route('cart.index') }}" class="{{ request()->routeIs('cart.*') ? 'active' : '' }}">سبد خرید</a>
             </nav>
-
-            <div class="header-actions">
-                <a class="btn btn-outline btn-sm" href="{{ route('page.policy', ['page' => 'refund-policy']) }}">سیاست بازگشت</a>
-                <a class="btn btn-sm" href="/admin">پنل مدیریت</a>
-            </div>
         </div>
     </header>
 
