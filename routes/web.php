@@ -30,7 +30,7 @@ Route::get('/contact', ContactController::class)->name('contact');
 
 Route::get('/cart', function () {
     return view('cart.index', [
-        'cartProducts' => Product::query()->where('is_active', '=', true)->with('category')->where('is_featured', '=', true)->limit(3)->get(),
+        'cartProducts' => Product::query()->whereRaw('"is_active" is true')->with('category')->whereRaw('"is_featured" is true')->limit(3)->get(),
     ]);
 })->name('cart.index');
 
