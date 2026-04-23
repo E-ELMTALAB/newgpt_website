@@ -72,7 +72,13 @@ fi
 php artisan filament:upgrade --no-interaction || true
 
 php artisan config:cache
-php artisan route:cache
+
+# Route cache fails when any route uses a Closure. Do not block startup in that case.
+if ! php artisan route:cache; then
+  echo "Skipping route cache (likely due to Closure routes)." >&2
+  php artisan route:clear || true
+fi
+
 php artisan view:cache
 
 exec apache2-foreground
