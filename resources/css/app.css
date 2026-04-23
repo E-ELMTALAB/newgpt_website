@@ -1208,6 +1208,98 @@ body.is-home .header-actions .btn {
     padding: 0;
 }
 
+.home-products-section .grid-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.home-ref-card {
+    padding: .75rem;
+    border-radius: 28px;
+    display: grid;
+    gap: .8rem;
+}
+
+.home-ref-media {
+    position: relative;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 22px;
+    min-height: 215px;
+    background: linear-gradient(145deg, rgba(109, 134, 255, 0.35), rgba(143, 84, 255, 0.32));
+}
+
+.home-ref-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-ref-media-fallback {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.home-ref-badge {
+    position: absolute;
+    top: .55rem;
+    right: .55rem;
+    border-radius: 999px;
+    font-size: .8rem;
+    font-weight: 800;
+    padding: .18rem .62rem;
+    color: #fff;
+    background: rgba(255, 95, 95, 0.92);
+}
+
+.home-ref-info {
+    border-radius: 20px;
+    padding: .9rem;
+    display: grid;
+    gap: .52rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.home-ref-info h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home-ref-info h3 a {
+    text-decoration: none;
+}
+
+.home-ref-price {
+    display: grid;
+    gap: .2rem;
+}
+
+.home-ref-price del {
+    font-size: .82rem;
+    color: rgba(255, 180, 180, 0.92);
+    text-decoration-color: rgba(255, 140, 140, 0.9);
+}
+
+.home-ref-price strong {
+    font-size: 1.45rem;
+    color: #9cf2bf;
+    line-height: 1.2;
+}
+
+.home-ref-cta {
+    justify-self: end;
+    border-radius: 999px;
+    padding-inline: 1rem;
+}
+
 .home-section-head {
     margin: .2rem 0 .65rem;
 }
@@ -1362,9 +1454,38 @@ body.is-home .header-actions .btn {
     .home-intro-grid {
         grid-template-columns: 1fr;
     }
+
+    .home-products-section .grid-cards {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 760px) {
+    .home-products-section .grid-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: .7rem;
+    }
+
+    .home-ref-card {
+        border-radius: 20px;
+        padding: .55rem;
+        gap: .55rem;
+    }
+
+    .home-ref-media {
+        min-height: 135px;
+        border-radius: 16px;
+    }
+
+    .home-ref-info {
+        border-radius: 14px;
+        padding: .62rem;
+    }
+
+    .home-ref-price strong {
+        font-size: 1.05rem;
+    }
+
     .home-tabs-strip {
         justify-content: flex-start;
     }
@@ -1381,5 +1502,11 @@ body.is-home .header-actions .btn {
 
     .home-faq-list summary {
         font-size: .92rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .home-products-section .grid-cards {
+        grid-template-columns: 1fr;
     }
 }
