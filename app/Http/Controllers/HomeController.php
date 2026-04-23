@@ -12,13 +12,13 @@ class HomeController extends Controller
     public function __invoke()
     {
         $activeProducts = Product::query()
-            ->where('is_active', '=', true)
+            ->whereRaw('"is_active" is true')
             ->with('category')
             ->latest()
             ->get();
 
         $products = Product::query()
-            ->where('is_active', '=', true)
+            ->whereRaw('"is_active" is true')
             ->with('category')
             ->latest()
             ->paginate(12);
@@ -31,9 +31,9 @@ class HomeController extends Controller
                 ->take(4)
                 ->values(),
             'socialProducts' => $activeProducts->take(4)->values(),
-            'categories' => Category::query()->where('is_active', '=', true)->orderBy('sort_order')->limit(8)->get(),
-            'faqs' => Faq::query()->where('is_active', '=', true)->orderBy('sort_order')->limit(8)->get(),
-            'blogPosts' => BlogPost::query()->where('is_published', '=', true)->latest('published_at')->limit(4)->get(),
+            'categories' => Category::query()->whereRaw('"is_active" is true')->orderBy('sort_order')->limit(8)->get(),
+            'faqs' => Faq::query()->whereRaw('"is_active" is true')->orderBy('sort_order')->limit(8)->get(),
+            'blogPosts' => BlogPost::query()->whereRaw('"is_published" is true')->latest('published_at')->limit(4)->get(),
         ]);
     }
 }
