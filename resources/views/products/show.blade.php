@@ -21,17 +21,19 @@
             </div>
 
             <h1 class="detail-main-title">{{ $product->name }}</h1>
-            <p class="pd-subtitle">{{ $product->short_description }}</p>
 
             <div class="pd-buy-row">
                 <div class="price-row">
                     <strong>{{ number_format($product->price) }} تومان</strong>
                     @if($product->compare_price)<del>{{ number_format($product->compare_price) }}</del>@endif
                 </div>
-                <div class="pd-actions">
-                    <a class="btn" href="{{ route('checkout.show', $product) }}">خرید مستقیم</a>
-                    <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره قبل خرید</a>
-                </div>
+            </div>
+
+            <p class="pd-subtitle">{{ $product->short_description }}</p>
+
+            <div class="pd-actions">
+                <a class="btn" href="{{ route('checkout.show', $product) }}">خرید مستقیم</a>
+                <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره قبل خرید</a>
             </div>
 
             <div class="pd-spec-grid">
@@ -68,6 +70,10 @@
             <strong>پرداخت امن</strong>
             <span>ثبت سفارش مطمئن با جزئیات شفاف</span>
         </article>
+        <article class="trust-item">
+            <strong>اطلاعات شفاف</strong>
+            <span>نمایش کامل هزینه و شرایط قبل از ثبت سفارش</span>
+        </article>
     </section>
 
     <section class="pd-body">
@@ -95,27 +101,31 @@
             </section>
         </aside>
     </section>
+
+    <section class="pd-related panel">
+        <div class="section-head pd-related-head">
+            <h2>محصولات مرتبط</h2>
+        </div>
+        <section class="grid-cards pd-related-products">
+            @forelse($relatedProducts as $relatedProduct)
+                @include('partials.store.product-card', ['product' => $relatedProduct])
+            @empty
+                <article class="panel">در این دسته محصول دیگری ثبت نشده است.</article>
+            @endforelse
+        </section>
+    </section>
+
+    <section class="pd-related panel">
+        <div class="section-head pd-related-head">
+            <h2>مقالات مرتبط</h2>
+        </div>
+        <section class="grid-cards pd-related-posts">
+            @forelse($relatedPosts as $post)
+                @include('partials.store.blog-card', ['post' => $post])
+            @empty
+                <article class="panel">مقاله‌ای برای نمایش ثبت نشده است.</article>
+            @endforelse
+        </section>
+    </section>
 </article>
-
-<section class="section-head">
-    <h2>محصولات مرتبط</h2>
-</section>
-<section class="grid-cards">
-    @forelse($relatedProducts as $relatedProduct)
-        @include('partials.store.product-card', ['product' => $relatedProduct])
-    @empty
-        <article class="panel">در این دسته محصول دیگری ثبت نشده است.</article>
-    @endforelse
-</section>
-
-<section class="section-head">
-    <h2>مقالات مرتبط</h2>
-</section>
-<section class="grid-cards">
-    @forelse($relatedPosts as $post)
-        @include('partials.store.blog-card', ['post' => $post])
-    @empty
-        <article class="panel">مقاله‌ای برای نمایش ثبت نشده است.</article>
-    @endforelse
-</section>
 @endsection
