@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogPost;
 use App\Models\Category;
 use App\Models\Product;
 
@@ -35,6 +36,11 @@ class ProductController extends Controller
                 ->where('category_id', $product->category_id)
                 ->where('id', '!=', $product->id)
                 ->limit(4)
+                ->get(),
+            'relatedPosts' => BlogPost::query()
+                ->whereRaw('"is_published" is true')
+                ->latest('published_at')
+                ->limit(3)
                 ->get(),
         ]);
     }
