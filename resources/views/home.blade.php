@@ -6,20 +6,15 @@
     </section>
 
     <section class="home-tabs-strip" aria-label="دسته‌بندی‌ها">
-        @php($homeTopLinks = [
-            ['label' => 'پرداخت ارزی', 'url' => '/services/international-payments'],
-            ['label' => 'اکانت های هوش مصنوعی', 'url' => '/account/artificial-inteligence'],
-            ['label' => 'خدمات ویژه', 'url' => '/services/premium'],
-            ['label' => 'اشتراک تیمی', 'url' => '/services/team-plans'],
-            ['label' => 'راهنما', 'url' => '/guides'],
-            ['label' => 'تماس با ما', 'url' => '/contact'],
-        ])
-        @foreach($homeTopLinks as $link)
-            <a href="{{ $link['url'] }}" class="home-tab-chip {{ $loop->first ? 'is-active' : '' }}">
-                @if($loop->first)
-                    <span class="home-tab-badge">جدید</span>
+        @foreach($homeSections as $section)
+            <a
+                href="{{ route('home', ['section' => $section['key']]) }}"
+                class="home-tab-chip {{ $currentSection === $section['key'] ? 'is-active' : '' }} {{ $section['key'] === 'payments' ? 'is-glow' : '' }}"
+            >
+                @if($section['key'] === 'payments')
+                    <span class="home-tab-badge">ویژه</span>
                 @endif
-                <span>{{ $link['label'] }}</span>
+                <span>{{ $section['label'] }}</span>
             </a>
         @endforeach
     </section>
