@@ -1549,10 +1549,8 @@ body.is-home .header-actions .btn {
     padding: 0;
     overflow: hidden;
     border-radius: 30px;
-    background:
-        radial-gradient(circle at 20% 25%, rgba(147, 51, 234, 0.24), transparent 45%),
-        radial-gradient(circle at 80% 85%, rgba(56, 189, 248, 0.18), transparent 42%),
-        linear-gradient(145deg, rgba(30, 27, 75, 0.95), rgba(67, 56, 202, 0.78));
+    background: rgba(11, 21, 50, 0.75);
+    border: 1px solid var(--line);
 }
 
 .pd-reference-main {
@@ -1591,8 +1589,8 @@ body.is-home .header-actions .btn {
 
 .pd-reference-price {
     border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: linear-gradient(130deg, rgba(255, 255, 255, 0.18), rgba(96, 165, 250, 0.15));
+    border: 1px solid var(--line);
+    background: rgba(11, 21, 50, 0.75);
     padding: .85rem 1rem;
     display: grid;
     gap: .35rem;
@@ -1649,8 +1647,8 @@ body.is-home .header-actions .btn {
 
 .pd-bonus-strip {
     border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid var(--line);
+    background: rgba(11, 21, 50, 0.75);
     padding: .5rem .85rem;
     display: flex;
     align-items: center;
@@ -1702,15 +1700,15 @@ body.is-home .header-actions .btn {
     padding: 1rem;
     display: grid;
     gap: .75rem;
-    background: rgba(35, 33, 100, 0.34);
+    background: transparent;
 }
 
 .pd-reference-media {
     border-radius: 24px;
     min-height: 380px;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    background: rgba(24, 24, 70, 0.35);
+    border: 1px solid var(--line);
+    background: rgba(11, 21, 50, 0.75);
 }
 
 .pd-reference-media img {
@@ -1726,14 +1724,14 @@ body.is-home .header-actions .btn {
 }
 
 .pd-offer-card {
-    border: 1px solid rgba(255, 255, 255, 0.55);
+    border: 1px solid var(--line);
     border-radius: 22px;
     padding: .7rem .85rem;
     min-height: 88px;
     display: grid;
     gap: .24rem;
     align-content: space-between;
-    background: rgba(50, 50, 116, 0.4);
+    background: rgba(11, 21, 50, 0.75);
 }
 
 .pd-offer-card.is-wide {
