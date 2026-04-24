@@ -1,79 +1,83 @@
 @extends('layouts.app')
 @section('content')
 <article class="pd-page">
-    <section class="pd-hero panel">
-        <div class="pd-hero-media-wrap">
-            <div class="pd-hero-media">
-                @if($product->featured_image)
-                    <img src="{{ $product->featured_image }}" alt="{{ $product->name }}">
-                @else
-                    <span class="pd-hero-media-fallback">{{ mb_substr($product->name, 0, 1) }}</span>
-                @endif
-            </div>
-        </div>
+    <section class="pd-reference-hero panel">
+        <div class="pd-reference-main">
+            <div class="pd-reference-copy">
+                <div class="pd-breadcrumbs">
+                    <a href="{{ route('home') }}">خانه</a>
+                    <span>‹</span>
+                    <a href="{{ route('products.index') }}">محصولات</a>
+                    <span>‹</span>
+                    <span>{{ $product->name }}</span>
+                </div>
+                <h1 class="pd-reference-title">{{ $product->name }}</h1>
 
-        <div class="pd-hero-main">
-            <div class="pd-hero-head">
-                <span class="badge">{{ $product->category?->name ?? 'محصول دیجیتال' }}</span>
-                @if(!empty($product->badge_text))
-                    <span class="badge badge-ok">{{ $product->badge_text }}</span>
-                @endif
-            </div>
+                <section class="pd-reference-price">
+                    @if(!empty($product->badge_text))
+                        <span class="pd-discount-chip">{{ $product->badge_text }}</span>
+                    @endif
+                    <div class="pd-price-wrap">
+                        <strong>{{ number_format($product->price) }}</strong>
+                        <span>تومان</span>
+                    </div>
+                    @if($product->compare_price)
+                        <del>{{ number_format($product->compare_price) }} تومان</del>
+                    @endif
+                </section>
 
-            <h1 class="detail-main-title">{{ $product->name }}</h1>
+                <ul class="pd-feature-list">
+                    <li>{{ $product->short_description }}</li>
+                    <li>دسترسی سریع و فعال‌سازی امن برای حساب اختصاصی</li>
+                    <li>پشتیبانی مرحله‌به‌مرحله تا زمان استفاده کامل</li>
+                    <li>اولویت پاسخ‌گویی در ساعات پرترافیک</li>
+                    <li>{{ $product->delivery_notes ?: 'تحویل فوری دیجیتال با تضمین بازگشت وجه' }}</li>
+                </ul>
 
-            <div class="pd-buy-row">
-                <div class="price-row">
-                    <strong>{{ number_format($product->price) }} تومان</strong>
-                    @if($product->compare_price)<del>{{ number_format($product->compare_price) }}</del>@endif
+                <section class="pd-bonus-strip">
+                    <strong>هدیه همراه</strong>
+                    <span>راهنمای کامل استفاده از محصول (PDF)</span>
+                </section>
+
+                <div class="pd-cta-wrap">
+                    <a class="btn pd-main-cta" href="{{ route('checkout.show', $product) }}">خرید اکانت در لحظه</a>
+                    <p>تحویل فوری دیجیتال • پشتیبانی ۲۴ ساعته • ضمانت بازگشت وجه</p>
+                </div>
+
+                <div class="pd-meta-icons">
+                    <span>پشتیبانی کامل</span>
+                    <span>پرداخت امن</span>
+                    <span>تحویل فوری</span>
                 </div>
             </div>
 
-            <p class="pd-subtitle">{{ $product->short_description }}</p>
+            <div class="pd-reference-side">
+                <div class="pd-reference-media">
+                    @if($product->featured_image)
+                        <img src="{{ $product->featured_image }}" alt="{{ $product->name }}">
+                    @else
+                        <span class="pd-hero-media-fallback">{{ mb_substr($product->name, 0, 1) }}</span>
+                    @endif
+                </div>
 
-            <div class="pd-actions">
-                <a class="btn" href="{{ route('checkout.show', $product) }}">خرید مستقیم</a>
-                <a class="btn btn-outline" href="{{ route('contact') }}">مشاوره قبل خرید</a>
-            </div>
-
-            <div class="pd-spec-grid">
-                <article>
-                    <strong>تحویل</strong>
-                    <span>فعال‌سازی سریع</span>
-                </article>
-                <article>
-                    <strong>پشتیبانی</strong>
-                    <span>همراهی واقعی</span>
-                </article>
-                <article>
-                    <strong>نوع اکانت</strong>
-                    <span>{{ $product->category?->name ?? 'دیجیتال' }}</span>
-                </article>
-                <article>
-                    <strong>تمدید</strong>
-                    <span>قابل هماهنگی</span>
-                </article>
+                @php($offerCards = [
+                    ['title' => 'Go اختصاصی', 'price' => 1899000, 'old' => 2199000],
+                    ['title' => 'فعال‌سازی روی اکانت شخصی بدون ضمانت', 'price' => 2199000, 'old' => 2499000],
+                    ['title' => 'پلن یک‌ماهه دانشجویی اختصاصی', 'price' => 979000, 'old' => 1179000],
+                    ['title' => 'اکانت پیش ساخته یک‌ماهه پلاس اختصاصی', 'price' => 1245000, 'old' => 1549000],
+                    ['title' => 'فعال‌سازی روی اکانت شخصی با پشتیبانی و ضمانت', 'price' => 2199000, 'old' => 2499000],
+                ])
+                <div class="pd-offers-grid">
+                    @foreach($offerCards as $offer)
+                        <article class="pd-offer-card {{ $loop->last ? 'is-wide' : '' }}">
+                            <h3>{{ $offer['title'] }}</h3>
+                            <del>{{ number_format($offer['old']) }} تومان</del>
+                            <strong>{{ number_format($offer['price']) }} تومان</strong>
+                        </article>
+                    @endforeach
+                </div>
             </div>
         </div>
-    </section>
-
-    <section class="pd-trust-strip">
-        <article class="trust-item">
-            <strong>تحویل سریع</strong>
-            <span>ارسال اطلاعات حساب در کوتاه‌ترین زمان</span>
-        </article>
-        <article class="trust-item">
-            <strong>پشتیبانی واقعی</strong>
-            <span>پاسخ‌گویی مرحله‌به‌مرحله تا فعال‌سازی کامل</span>
-        </article>
-        <article class="trust-item">
-            <strong>پرداخت امن</strong>
-            <span>ثبت سفارش مطمئن با جزئیات شفاف</span>
-        </article>
-        <article class="trust-item">
-            <strong>اطلاعات شفاف</strong>
-            <span>نمایش کامل هزینه و شرایط قبل از ثبت سفارش</span>
-        </article>
     </section>
 
     <section class="pd-body">
