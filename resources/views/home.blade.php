@@ -49,20 +49,13 @@
         </section>
 
         <section class="home-products-flow">
-            <section class="grid-cards home-group-grid">
+            <section class="grid-cards">
                 @forelse($products as $product)
-                    @include('partials.store.product-card', ['product' => $product])
+                    @include('partials.store.product-card', ['product' => $product, 'homeCard' => true])
                 @empty
                     <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
                 @endforelse
             </section>
-
-        <section class="grid-cards">
-            @forelse($products as $product)
-                @include('partials.store.product-card', ['product' => $product, 'homeCard' => true])
-            @empty
-                <article class="panel">محصولی برای نمایش ثبت نشده است.</article>
-            @endforelse
         </section>
 
         <section class="home-faq">
